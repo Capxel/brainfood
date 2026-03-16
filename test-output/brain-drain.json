@@ -1,0 +1,4465 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://llmld.org/"
+  ],
+  "tool": {
+    "name": "brain-drain",
+    "brand": "Capxel",
+    "website": "https://capxel.com",
+    "version": "1.0.0"
+  },
+  "generatedAt": "2026-03-16T21:30:40.524Z",
+  "sourceType": "crawl",
+  "sourceRoot": "https://capxel.com",
+  "stats": {
+    "documentCount": 23,
+    "relationshipCount": 487,
+    "topicCount": 111,
+    "entityCount": 241
+  },
+  "nodes": [
+    {
+      "id": "3f0b3c629f05",
+      "title": "CAPXEL — AI-Native Consumer Intelligence",
+      "url": "https://capxel.com/",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceThe Intelligence Layer Behind the Brands That WinAI-native consumer data infrastructure. From identity capture to intent prediction — see what's invisible to everyone else.Test Your AI VisibilityExplore Our PlatformThe iceberg is real: most signal is hidden beneath the surface.0+Consumer Data Points0M+Unique US Identities0B+Total Attribute Fields0Industries OptimizedProduct SuiteIdentity. Intelligence. Intent. Visibility. One integrated consumer data layer.Agentic Search OptimizationFLAGSHIPMake your brand visible to AI agents. We authored the LLM-LD standard — the machine-readable layer that defines how AI discovers, understands, and recommends businesses. Your competitors who optimize first win the next decade.Learn about ASO SPYBOXIdentify up to 75% of anonymous web traffic. Know who's looking.Explore INSPEXDeep behavioral blueprints from your highest-value customers.Explore BUYER AMBITION DATAKnow who's ready to buy before they raise their hand.Explore BEACONSee which AI agents visit your brand. Monthly intelligence reports proving ASO ROI.Explore PROSPEXNot just leads — the exact people who match your best buyers.Explore LANDMARXPhysical location monitoring meets deep consumer data.Explore The Capxel DifferencePremium intelligence infrastructure — built for the brands who want to see under the surface.Authors of the LLM-LD StandardWe don't just optimize for AI — we wrote the specification that defines how it works.260M+ Identity DatabaseThe deepest consumer intelligence layer in the industry. 500+ data points per identity.AI-Native ArchitectureBuilt from day one for the agentic era. Not retrofitted — engineered.Security-FirstAES-256 encryption, blockchain-secured transfers, zero-compromise data handling.ASO — Agentic Search OptimizationCan AI Find Your Business?73% of brand websites are invisible to AI agents. Find out where you stand in 60 seconds.Run Your Free TestWhat Leaders SayThe suite isn't just data — it's leverage.“What CAPXEL is doing is just insane. Their full suite of tools is miles above what anyone is doing right now. My sales team knows more about their prospects before they ever pick up a phone than we've known about some of our oldest clients. It honestly feels like cheating.”Sebastian D.CEO“CAPXEL's insights have allowed my marketing team to completely change our approach to client acquisition. I can't imagine ever going back to the \"old way.\" Our ROAS trend has me look like a genius and our conversion rate has never been higher.”Andy T.CMO“I'm heavily into implementing AI into all aspects of our company and I'm not easily impressed with \"new\" AI tools. That being said, CAPXEL's approach for developing tools that specifically target what they call \"deep data\" is going to open doors companies under a billion dollars to do what Big Tech is doing.”Shawna M.CTOFAQHigh-signal answers. No fluff.What exactly does CAPXEL do?What is ASO (Agentic Search Optimization)?What type of customer data does CAPXEL provide?Is the data provided by CAPXEL secure?How is CAPXEL different?Who is the right fit for CAPXEL?Ready to see what's under the surface?Start with a conversation — we'll map your visibility, identity signal, and intent blind spots.Get Started",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceThe Intelligence Layer Behind the Brands That WinAI-native consumer data infrastructure. From identity capture to intent prediction — see what's invisible to everyone else.Test Your AI VisibilityExplore Our PlatformThe iceberg is real: most signal is hidden beneath the surface.0+",
+      "topics": [
+        "capxel",
+        "data",
+        "consumer",
+        "explore",
+        "intelligence",
+        "agentic",
+        "aso",
+        "identity"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Intelligence Layer Behind",
+          "type": "person"
+        },
+        {
+          "name": "Brands That",
+          "type": "person"
+        },
+        {
+          "name": "Test Your",
+          "type": "person"
+        },
+        {
+          "name": "Consumer Data",
+          "type": "person"
+        },
+        {
+          "name": "Unique",
+          "type": "unknown"
+        },
+        {
+          "name": "Total Attribute",
+          "type": "person"
+        },
+        {
+          "name": "Intelligence",
+          "type": "unknown"
+        },
+        {
+          "name": "Intent",
+          "type": "unknown"
+        },
+        {
+          "name": "Visibility",
+          "type": "unknown"
+        },
+        {
+          "name": "One",
+          "type": "unknown"
+        },
+        {
+          "name": "Agentic Search",
+          "type": "person"
+        },
+        {
+          "name": "Learn",
+          "type": "unknown"
+        },
+        {
+          "name": "Know",
+          "type": "unknown"
+        },
+        {
+          "name": "Explore",
+          "type": "unknown"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        },
+        {
+          "type": "links_to",
+          "target": "43e1b1f74073",
+          "targetTitle": "Free AI Readability Test | CAPXEL"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/",
+        "relativeOutputPath": "capxel.com/index",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 462,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "b45d635f2f68",
+      "title": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL",
+      "url": "https://capxel.com/aso",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceYour Customers Are Asking AI Where to Buy. Is It Recommending You?Agentic Search Optimization - the practice of making your brand discoverable to AI agents. CAPXEL authored the standard.Test Your Site FreeTalk to Our TeamThe iceberg is real: most signal is hidden beneath the surface.The ProblemAI Agents Can't Parse Visual WebsitesMost brand websites were built for humans: visual layouts, navigation menus, interactions, and design cues. AI agents extract and verify information - and they need stable, structured signals.Audit insight~73% of brand websites are effectively invisible to LLMs.CAPXEL ASO DiagnosticsTraditional SEO optimizes for humans and search engines. ASO optimizes for the AI agents that increasingly influence what humans buy - by giving agents an authoritative source of truth.What Is ASO?Agentic Search Optimization is a new layer of discoverability: the systems that recommend brands are no longer only search engines - they are AI agents. CAPXEL coined the term ASO in November 2025.Optimized for human readersTraditional SEOFocuses on SERP rankings and human click-throughContent is written and laid out for visual scanningMetadata is often inconsistent across pagesGreat for search engines - not enough for agentsOptimized for AI agentsASO (Agentic Search Optimization)Makes your business legible to LLM-driven agentsPublishes machine-readable business intelligenceCreates consistent, verifiable structured signalsDesigned for the AI layer influencing purchase decisionsThe StandardLLM-LD: How AI Discovers BusinessesCAPXEL authored the LLM-LD standard - a machine-readable specification that defines how AI agents identify, verify, and recommend businesses.Trust SignalsStructured policy, warranty, shipping, returns, and verification signals - so agents can confidently recommend you.Entity ConsistencyOne coherent business identity across pages and channels - making it easier for agents to resolve “who you are”.Agent ReadabilityPurpose-built formats and endpoints that agents can fetch, parse, and cite - independent of UI and layout.View the LLM-LD Standard How It WorksWhite-glove implementation. We don’t “do marketing” - we give your marketing team a machine-readable foundation that agents can recognize and trust.01AuditWe scan your entire web presence - site, subdomains, key pages, and entity signals - to understand what an AI agent can (and can't) extract today.02OptimizeWe build a machine-readable intelligence layer: product, policy, location, and brand signals expressed in standardized, agent-friendly formats.03DeployWe deploy via an AI endpoint (typically ai.yourdomain.com) so agents have a reliable source of truth - versioned, consistent, and always accessible.ResultsASO outputs are measurable: structured intelligence, consistent entity signals, and an agent-ready endpoint.5Industries optimized1,956Machine-readable files generatedUp to 7Structured schemas per page60sTime to run the ASO testThe outcome: agents can answer “where to buy” with confidence.When your intelligence layer is consistent, verifiable, and easy to fetch, AI systems are more likely to include you in recommendations, comparisons, and purchase guidance.Run the Free TestTalk to CAPXELProve It's WorkingASO optimizes. BEACON proves it.Every time GPTBot, ClaudeBot, or PerplexityBot crawls your AI layer, BEACON captures it. Monthly intelligence reports show exactly which AI systems are reading your brand, how often, and what they care about. Data you literally cannot get anywhere else.Learn About BEACON ASO DiagnosticsCan AI Find Your Business? Find out in 60 seconds.CAPXEL is a white-glove data consultancy. We build the structured layer so your team can own discoverability in an AI-first world.Test Your Site FreeTalk to Our TeamRelated products: BEACON · SPYBOX · INSPEX · PROSPEXFAQEverything you need to know about Agentic Search Optimization.What is Agentic Search Optimization (ASO)?Why does ASO matter now - if I already do SEO?Where does the \"73% invisible to LLMs\" claim come from?What is LLM-LD?What exactly do you deploy to my domain?Who is ASO best for?How do I know ASO is actually working?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceYour Customers Are Asking AI Where to Buy. Is It Recommending You?Agentic Search Optimization - the practice of making your brand discoverable to AI agents.",
+      "topics": [
+        "agents",
+        "aso",
+        "search",
+        "capxel",
+        "agentic",
+        "layer",
+        "optimization",
+        "brand"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Customers Are Asking",
+          "type": "person"
+        },
+        {
+          "name": "Buy",
+          "type": "unknown"
+        },
+        {
+          "name": "Is It Recommending You",
+          "type": "person"
+        },
+        {
+          "name": "Agentic Search Optimization",
+          "type": "person"
+        },
+        {
+          "name": "Test Your Site",
+          "type": "person"
+        },
+        {
+          "name": "Agents Can",
+          "type": "person"
+        },
+        {
+          "name": "Parse Visual",
+          "type": "person"
+        },
+        {
+          "name": "Audit",
+          "type": "unknown"
+        },
+        {
+          "name": "What Is",
+          "type": "person"
+        },
+        {
+          "name": "November",
+          "type": "unknown"
+        },
+        {
+          "name": "Optimized",
+          "type": "unknown"
+        },
+        {
+          "name": "Makes",
+          "type": "unknown"
+        },
+        {
+          "name": "Discovers",
+          "type": "unknown"
+        },
+        {
+          "name": "Trust",
+          "type": "unknown"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        },
+        {
+          "type": "links_to",
+          "target": "43e1b1f74073",
+          "targetTitle": "Free AI Readability Test | CAPXEL"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/aso",
+        "relativeOutputPath": "capxel.com/aso",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 580,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "937d412727c4",
+      "title": "SPYBOX — Identity Capture | CAPXEL | CAPXEL",
+      "url": "https://capxel.com/spybox",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceSee Who's Looking — Before They LeaveIdentify up to 75% of anonymous web traffic. Full identity enrichment. No opt-in required.Get StartedExplore INSPEXThe iceberg is real: most signal is hidden beneath the surface.How It WorksA Tiny Script. A Massive Lift in Visibility.SPYBOX sits quietly on your site. In under a second, it resolves a visitor’s identity and enriches them with deep consumer intelligence — so your team can activate what used to disappear.01InstallAdd a lightweight script to your site — deployed in minutes.02Identify + EnrichResolve identities in < 1 second and enrich automatically with 500+ fields.03ActivateSend profiles into your approved workflows: ads, email, analytics, or downstream CAPXEL products.FeaturesBuilt for teams who want certainty — not anonymous guesswork.Identity Capture (up to 75%)Identify a majority of anonymous traffic — turning “unknown visitors” into actionable people-level profiles.< 1 Second ResolutionFast identity resolution designed for real-time experiences and immediate downstream activation.500+ Enrichment FieldsEvery match is enriched automatically with deep consumer attributes — contact, demographics, and behavioral signals.Cross-PlatformDesigned to work with INSPEX, PROSPEX, and Buyer Ambition — capture → analyze → scale → target.Use CasesSPYBOX is the front door: it captures the signal so your team can act.E-commerce RetargetingRecover abandoned sessions by building audiences from real identities — not cookies.Ad Audience BuildingPush high-quality audiences into Meta, Google, or programmatic workflows with precision attributes.Drip Campaigns & LifecycleTrigger onboarding, winback, and nurture flows using verified identity enrichment.White-Glove Identity CaptureTurn Anonymous Traffic Into Named OpportunityWe implement SPYBOX with your governance in mind — then help your team activate the data across the stack.Get StartedExplore PROSPEXRelated: INSPEX · Buyer Ambition DataFAQCommon questions about SPYBOX.What is SPYBOX?How does SPYBOX work?What data is included in enrichment?Is SPYBOX compliant?What should I pair SPYBOX with?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceSee Who's Looking — Before They LeaveIdentify up to 75% of anonymous web traffic. Full identity enrichment.",
+      "topics": [
+        "spybox",
+        "identity",
+        "anonymous",
+        "capxel",
+        "enrichment",
+        "capture",
+        "consumer",
+        "second"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Looking",
+          "type": "unknown"
+        },
+        {
+          "name": "Before They",
+          "type": "person"
+        },
+        {
+          "name": "Full",
+          "type": "unknown"
+        },
+        {
+          "name": "How It",
+          "type": "person"
+        },
+        {
+          "name": "Tiny Script",
+          "type": "person"
+        },
+        {
+          "name": "Massive Lift",
+          "type": "person"
+        },
+        {
+          "name": "Visibility",
+          "type": "unknown"
+        },
+        {
+          "name": "Identity Capture",
+          "type": "person"
+        },
+        {
+          "name": "Identify",
+          "type": "unknown"
+        },
+        {
+          "name": "Second",
+          "type": "unknown"
+        },
+        {
+          "name": "Enrichment",
+          "type": "unknown"
+        },
+        {
+          "name": "Cross",
+          "type": "unknown"
+        },
+        {
+          "name": "Buyer Ambition",
+          "type": "person"
+        },
+        {
+          "name": "Ad Audience",
+          "type": "person"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/spybox",
+        "relativeOutputPath": "capxel.com/spybox",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 285,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "84b6bedb91b1",
+      "title": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL",
+      "url": "https://capxel.com/inspex",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceUnderstand Your Buyers at a Level Your Competitors Can'tDeep behavioral intelligence blueprints from your highest-value customers. Powered by 260M+ consumer profiles.Request an INSPEX ReportExplore SPYBOXThe iceberg is real: most signal is hidden beneath the surface.What INSPEX DoesNot Just Segmentation — Full Behavioral BlueprintsINSPEX analyzes your customers to uncover patterns, commonalities, and ideal avatars — then translates those findings into intelligence your marketing team can execute.White-glove intelligence, delivered as a reportCAPXEL is a data consultancy. We empower your team with clarity — we don’t run your campaigns. We provide the blueprint so execution becomes obvious.CapabilitiesIntelligence you can put to work immediately.Segment DiscoveryIdentify natural clusters inside your customer base — beyond surface-level demographics.Avatar IsolationPinpoint the traits of your highest-value customers and the conditions that predict conversion.Behavioral PatternsReveal what buyers do, not what they say: interests, affinities, signals, and propensity indicators.Actionable IntelligenceDeliver recommendations your marketing team can execute — positioning, channel strategy, and audience criteria.The INSPEX ReportA premium deliverable designed for decision-making: clear segments, clear avatars, clear actions.Audience SegmentsDetailed breakdown of distinct customer segments and the traits that define them.Commonality AnalysisThe shared factors behind your highest-value cohort — the levers that predict value and conversion.Ideal Customer ProfilesClear buyer avatars your team can align on — including acquisition criteria.Marketing RecommendationsPositioning and channel insights that translate intelligence into performance.Works WithINSPEX is the intelligence engine across the CAPXEL product suite.SPYBOXCapture identities â†’ analyze what converts.Explore SPYBOXBuyer Ambition DataAnalyze â†’ target active buyers.Explore Buyer Ambition DataPROSPEXAnalyze â†’ find more of your exact people.Explore PROSPEXPremium Customer IntelligenceWant the Blueprint of Who Really Buys?Send us your highest-value cohort. We’ll return an INSPEX Report your team can execute.Request an INSPEX ReportScale With PROSPEXFAQCommon questions about INSPEX.What is INSPEX?Is INSPEX just segmentation?What data do you need from us?What do I receive in an INSPEX Report?What does INSPEX work best with?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceUnderstand Your Buyers at a Level Your Competitors Can'tDeep behavioral intelligence blueprints from your highest-value customers. Powered by 260M+ consumer profiles.Request an INSPEX ReportExplore SPYBOXThe iceberg is real: most signal is hidden beneath the surface.What INSPEX D",
+      "topics": [
+        "inspex",
+        "intelligence",
+        "customer",
+        "team",
+        "capxel",
+        "highest-value",
+        "avatars",
+        "behavioral"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Your Buyers",
+          "type": "person"
+        },
+        {
+          "name": "Level Your Competitors Can",
+          "type": "person"
+        },
+        {
+          "name": "Powered",
+          "type": "unknown"
+        },
+        {
+          "name": "Request",
+          "type": "unknown"
+        },
+        {
+          "name": "Just Segmentation",
+          "type": "person"
+        },
+        {
+          "name": "Full Behavioral",
+          "type": "person"
+        },
+        {
+          "name": "White",
+          "type": "unknown"
+        },
+        {
+          "name": "Segment",
+          "type": "unknown"
+        },
+        {
+          "name": "Avatar",
+          "type": "unknown"
+        },
+        {
+          "name": "Behavioral",
+          "type": "unknown"
+        },
+        {
+          "name": "Actionable",
+          "type": "unknown"
+        },
+        {
+          "name": "Audience",
+          "type": "unknown"
+        },
+        {
+          "name": "Commonality",
+          "type": "unknown"
+        },
+        {
+          "name": "Ideal Customer",
+          "type": "person"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/inspex",
+        "relativeOutputPath": "capxel.com/inspex",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 303,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "2c976d753868",
+      "title": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL",
+      "url": "https://capxel.com/buyer-ambition-data",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceKnow Who's Ready to Buy — Before They DoClient-specific intent data, refreshed weekly, enriched with full identity profiles. Stop targeting demographics. Start targeting buyers.Talk to Our TeamSee All ProductsThe iceberg is real: most signal is hidden beneath the surface.The Problem With Intent DataEveryone Else Is Selling You Recycled AudiencesMost intent data providers run shared pools. Every client gets the same stale list of \"interested\" buyers — your competitor included. By the time you reach them, they've already been bombarded by everyone else using the same data.CAPXEL does it differently.What Makes Our Intent Data DifferentWhite-glove intelligence, not self-serve guesswork.Client-Specific AudiencesYour data is yours. We don't recycle audience pools across clients. Every delivery is built exclusively for your brand, your market, your goals.7-Day Fresh IdentitiesEvery weekly delivery contains people who have shown purchase intent in the past seven days. No stale data. No recycled lists. Active buyers only.Full Identity EnrichmentEvery identity comes with verified emails and mobile advertising IDs — enabling cross-device targeting across Meta, Google, programmatic, email, and direct mail.Precision Geo-TargetingNationwide, by state, by county, or hyper-local. Need buyers searching for gutter services in a specific metro? We can do that. Any vertical. Any region.Continuously RefinedWe don't set it and forget it. Using INSPEX intelligence and market sentiment analysis, we constantly refine your targeting to maximize conversion impact.B2B & B2C, All VerticalsConsumer brands, SaaS, professional services, local businesses — our intent data covers every vertical with custom aggregation for qualifying clients.How It WorksIntelligence in. Buyers out. Every week.01Intelligence IngestionWe analyze your brand, your INSPEX customer data, and market sentiment to define the exact buyer ambition verticals that will drive the highest conversion impact.02Custom Audience BuildWe source fresh, high-intent identities — people actively searching for what you sell in the past 7 days — enriched with full contact data and advertising IDs.03Weekly Delivery & RefinementYour data is delivered weekly via secure CSV. Load it directly into Meta, Google, or any ad platform. We review performance and refine targeting every cycle.Precision Targeting, Any MarketFrom product-level to brand-level. Local to nationwide. We customize the data to fit.E-Commerce BrandA supplement brand receives weekly audiences of people actively researching protein powder — enriched with emails, ad IDs, income data, and purchase behavior. Loaded directly into Meta custom audiences and email sequences. Cost per acquisition drops. ROAS compounds.Local Service BusinessA home services company targets people searching for gutter repair in their metro area. Weekly fresh audiences, geo-targeted to their service radius. Every ad dollar hits someone who's already looking. The data pays for itself in the first week.White-Glove Data ConsultancyStop Guessing. Start Targeting Buyers.The more you invest in reaching the right audience, the faster the data compounds your results. Let's build your first custom audience.Talk to Our TeamExplore INSPEXFAQEverything you need to know about Buyer Ambition Data.What is Buyer Ambition Data?How is this different from other intent data providers?What verticals does this work for?How is the data delivered?Can I target specific geographic areas?Who is Buyer Ambition Data designed for?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceKnow Who's Ready to Buy — Before They DoClient-specific intent data, refreshed weekly, enriched with full identity profiles. Stop targeting demographics.",
+      "topics": [
+        "data",
+        "intent",
+        "targeting",
+        "buyers",
+        "every",
+        "weekly",
+        "ambition",
+        "buyer"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Ready",
+          "type": "unknown"
+        },
+        {
+          "name": "Buy",
+          "type": "unknown"
+        },
+        {
+          "name": "Before They",
+          "type": "person"
+        },
+        {
+          "name": "Stop",
+          "type": "unknown"
+        },
+        {
+          "name": "Start",
+          "type": "unknown"
+        },
+        {
+          "name": "Talk",
+          "type": "unknown"
+        },
+        {
+          "name": "The Problem With Intent",
+          "type": "person"
+        },
+        {
+          "name": "Else Is Selling You",
+          "type": "person"
+        },
+        {
+          "name": "Recycled",
+          "type": "unknown"
+        },
+        {
+          "name": "Every",
+          "type": "unknown"
+        },
+        {
+          "name": "What Makes Our Intent",
+          "type": "person"
+        },
+        {
+          "name": "Data",
+          "type": "unknown"
+        },
+        {
+          "name": "Client",
+          "type": "unknown"
+        },
+        {
+          "name": "Specific",
+          "type": "unknown"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/buyer-ambition-data",
+        "relativeOutputPath": "capxel.com/buyer-ambition-data",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 496,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "0c624f1d1f26",
+      "title": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL",
+      "url": "https://capxel.com/beacon",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceSee Every AI Agent That Visits Your BrandBEACON monitors every crawler request to your AI-optimized layer and turns it into monthly intelligence reports. Know which AI systems are reading your site, how often, and what they care about.See What AI SeesExplore ASOThe iceberg is real: most signal is hidden beneath the surface.Crawler IntelligenceProof Your ASO Investment Is WorkingAI crawler traffic is the leading indicator of agentic discovery. BEACON turns “we think it’s being read” into hard evidence: who visited, what they accessed, and what to optimize next.14+ AI Crawler IdentificationIdentify GPTBot, ClaudeBot, Googlebot, PerplexityBot, Bingbot, and more - mapped to clean, readable categories.Monthly Intelligence ReportsBranded PDF with executive summary, crawler breakdown, and content heat map - delivered automatically.Real-Time Activity FeedLive crawler activity like: \"3 minutes ago — GPTBot accessed your product page.\"Coverage Gap AnalysisSee which pages AI cares about vs. what it ignores - then prioritize ASO updates with certainty.DG1 Change DetectionAutomated scans detect site changes and flag when your LLM-LD layer needs a refresh.Alert SystemGet notified when a new crawler appears or when activity drops (e.g. \"Activity dropped 20%\").Your Monthly IntelligenceWhat You'll See Every MonthA branded intelligence report delivered on the 1st of every month - no login required, no dashboards to learn. Clear answers to the questions that matter.Executive SummaryTop-line overview: total AI agent visits, month-over-month trend, and key takeaways your team can act on immediately.Crawler BreakdownWhich AI systems visited - GPTBot, ClaudeBot, PerplexityBot, Googlebot, and more - broken down by frequency and recency.Content Heat MapSee which pages AI agents access most vs. which they ignore. Know exactly where to focus your next optimization.Actionable RecommendationsCoverage gap analysis with specific next steps: which pages need richer data, which products are underrepresented, where to expand.Exclusive IntelligenceData You Can't Get Anywhere ElseNo analytics tool, no SEO platform, and no third-party estimate can tell you which AI agents are reading your brand. This data exists only at the server level - and CAPXEL gives you direct visibility into it. Every visit. Every agent. Every month.Direct server-level observabilityMonth-over-month trend trackingZero impact on site performanceBEACONSee What AI SeesKnow which AI systems are reading your brand, what they are consuming, and where your coverage gaps live.See What AI SeesExplore ASORelated: INSPEX · SPYBOXFAQCommon questions about BEACON.What is BEACON?What AI crawlers does it track?How often do I get reports?What if my site has low crawler traffic?Does BEACON slow down my site?Do I need ASO first?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceSee Every AI Agent That Visits Your BrandBEACON monitors every crawler request to your AI-optimized layer and turns it into monthly intelligence reports. Know which AI systems are reading your site, how often, and what they care about.See What AI SeesExplore ASOThe iceberg is rea",
+      "topics": [
+        "crawler",
+        "every",
+        "beacon",
+        "site",
+        "activity",
+        "capxel",
+        "agent",
+        "aso"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Every",
+          "type": "unknown"
+        },
+        {
+          "name": "Agent That Visits Your",
+          "type": "person"
+        },
+        {
+          "name": "Know",
+          "type": "unknown"
+        },
+        {
+          "name": "See What",
+          "type": "person"
+        },
+        {
+          "name": "Crawler",
+          "type": "unknown"
+        },
+        {
+          "name": "Investment Is",
+          "type": "person"
+        },
+        {
+          "name": "Googlebot",
+          "type": "unknown"
+        },
+        {
+          "name": "Bingbot",
+          "type": "unknown"
+        },
+        {
+          "name": "Monthly Intelligence",
+          "type": "person"
+        },
+        {
+          "name": "Real",
+          "type": "unknown"
+        },
+        {
+          "name": "Time Activity",
+          "type": "person"
+        },
+        {
+          "name": "Coverage Gap",
+          "type": "person"
+        },
+        {
+          "name": "Change",
+          "type": "unknown"
+        },
+        {
+          "name": "Alert",
+          "type": "unknown"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/beacon",
+        "relativeOutputPath": "capxel.com/beacon",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 403,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "2dd2eaeb4f5a",
+      "title": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL",
+      "url": "https://capxel.com/prospex",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceNot Just Leads The Exact People Who Will BuyDefine your ideal customer with precision. We'll find as many as you need from our 260M+ identity database.Build Your AudienceExplore INSPEXThe iceberg is real: most signal is hidden beneath the surface.Elevated LeadsPrecision Audiences — Not Garbage ListsPROSPEX isn’t a “names and emails” product. It’s a white-glove audience build using deep identity enrichment.You pick the exact traits. Want single mothers in the Midwest making over $100K who have dogs? Done. CAPXEL finds the matching identities, enriches them, and delivers them for activation.FeaturesExact matches. Deep profiles. Unlimited scale.Exact Trait SelectionDefine the precise characteristics you want — down to niche combinations — and we build the audience.Full EnrichmentNot a name-and-email list. Profiles include deep enrichment (500+ fields) for targeting and analysis.Unlimited ScaleNeed 5,000 or 5,000,000? PROSPEX pulls from CAPXEL’s 260M+ US identity foundation.Continuous TargetingRefresh audiences over time as your criteria evolves — with consistent matching and delivery.Use CasesPROSPEX is built for activation across performance channels.Paired With INSPEXINSPEX finds your avatar. PROSPEX finds more of them — at scale.Meta Custom AudiencesBuild highly specific audiences and onboard them for performance acquisition.Email + Direct MailUse enriched identity profiles for multi-channel lifecycle and offline activation.Geo-Targeted OffersCombine trait filters with precise geographies for localized acquisition.Data WarehousingBring enriched identities into your analytics environment to improve LTV modeling.Audience Build, Done For YouDefine the Traits. We’ll Deliver the People.CAPXEL’s team builds precise, enriched audiences so your marketing team can execute with confidence.Build Your AudienceCapture With SPYBOXFAQCommon questions about PROSPEX.What is PROSPEX?How is PROSPEX different from list vendors?How specific can the traits be?How do we receive the audience?What should I pair PROSPEX with?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceNot Just Leads The Exact People Who Will BuyDefine your ideal customer with precision. We'll find as many as you need from our 260M+ identity database.Build Your AudienceExplore INSPEXThe iceberg is real: most signal is hidden beneath the surface.Elevated LeadsPrecision Audiences",
+      "topics": [
+        "prospex",
+        "capxel",
+        "build",
+        "audience",
+        "audiences",
+        "identity",
+        "activation",
+        "deep"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Just Leads The Exact",
+          "type": "person"
+        },
+        {
+          "name": "People Who Will",
+          "type": "person"
+        },
+        {
+          "name": "Build Your",
+          "type": "person"
+        },
+        {
+          "name": "Elevated",
+          "type": "unknown"
+        },
+        {
+          "name": "Audiences",
+          "type": "unknown"
+        },
+        {
+          "name": "Not Garbage",
+          "type": "person"
+        },
+        {
+          "name": "Want",
+          "type": "unknown"
+        },
+        {
+          "name": "Midwest",
+          "type": "unknown"
+        },
+        {
+          "name": "Done",
+          "type": "unknown"
+        },
+        {
+          "name": "Deep",
+          "type": "unknown"
+        },
+        {
+          "name": "Unlimited",
+          "type": "unknown"
+        },
+        {
+          "name": "Exact Trait",
+          "type": "person"
+        },
+        {
+          "name": "Full",
+          "type": "unknown"
+        },
+        {
+          "name": "Profiles",
+          "type": "unknown"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/prospex",
+        "relativeOutputPath": "capxel.com/prospex",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 273,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "ff8887e5e2e0",
+      "title": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL",
+      "url": "https://capxel.com/landmarx",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceKnow Who Walks Through Any DoorAI-powered geofencing identifies mobile device users who enter any physical location — then enriches them with full consumer data.Set Up Your First GeofenceExplore SPYBOXThe iceberg is real: most signal is hidden beneath the surface.How It WorksVirtual Boundaries â†’ Real AudiencesLANDMARX combines GPS + cellular data with app ecosystem partnerships. Set a geofence around any location, identify who enters, then enrich and activate the audience.01DefineChoose locations and draw boundaries for the precision you need.02IdentifyCapture devices that enter — across single stores or hundreds of locations.03Enrich + ActivateEnrich identities with consumer intelligence and deliver audiences for activation.FeaturesBuilt for precision campaigns, at any scale.Precision TargetingTarget down to office walls — with virtual boundaries configured for the locations that matter.Multi-LocationRun one location or hundreds simultaneously — with consistent configuration and reporting.Competitor IntelligenceFence competitor locations and understand who visits — then activate those audiences.Full EnrichmentEvery identified device is enriched with deep consumer data — not just an ad ID.Use CasesLocation behavior is intent — LANDMARX turns it into targeting.Retail Foot TrafficMeasure and influence store visits with audiences built from real-world location behavior.Competitor ConquestIdentify people who visit competitor storefronts and bring them into your funnel.Event TargetingFence conferences, stadiums, and venues to build audiences around high-intent moments.Real EstateCapture traffic at developments and open houses to power follow-up and prospecting.Geofencing IntelligenceFence the Location. Get the Customer.CAPXEL helps you design the geofence strategy, then delivers enriched audiences your team can activate.Set Up Your First GeofenceExplore PROSPEXFAQCommon questions about LANDMARX.What is LANDMARX?How does LANDMARX work?How precise is the targeting?Can we run multiple locations at once?What data do we get back?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceKnow Who Walks Through Any DoorAI-powered geofencing identifies mobile device users who enter any physical location — then enriches them with full consumer data.Set Up Your First GeofenceExplore SPYBOXThe iceberg is real: most signal is hidden beneath the surface.How It WorksVirt",
+      "topics": [
+        "audiences",
+        "landmarx",
+        "location",
+        "locations",
+        "capxel",
+        "competitor",
+        "consumer",
+        "data"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Who Walks Through Any",
+          "type": "person"
+        },
+        {
+          "name": "Set Up Your First",
+          "type": "person"
+        },
+        {
+          "name": "How It",
+          "type": "person"
+        },
+        {
+          "name": "Boundaries",
+          "type": "unknown"
+        },
+        {
+          "name": "Real",
+          "type": "unknown"
+        },
+        {
+          "name": "Set",
+          "type": "unknown"
+        },
+        {
+          "name": "Precision",
+          "type": "unknown"
+        },
+        {
+          "name": "Multi",
+          "type": "unknown"
+        },
+        {
+          "name": "Competitor",
+          "type": "unknown"
+        },
+        {
+          "name": "Full",
+          "type": "unknown"
+        },
+        {
+          "name": "Retail Foot",
+          "type": "person"
+        },
+        {
+          "name": "Event",
+          "type": "unknown"
+        },
+        {
+          "name": "Geofencing",
+          "type": "unknown"
+        },
+        {
+          "name": "Location",
+          "type": "unknown"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/landmarx",
+        "relativeOutputPath": "capxel.com/landmarx",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 269,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "f9051f6e39bb",
+      "title": "CAPXEL for E-Commerce | CAPXEL",
+      "url": "https://capxel.com/ecommerce",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceTurn Anonymous Traffic Into RevenueCAPXEL gives e-commerce brands the intelligence edge — capture every visitor, understand every buyer, and target with intent data that converts.Talk to Our TeamSee All ProductsThe iceberg is real: most signal is hidden beneath the surface.The E-Commerce ChallengeRising CAC. Wasted Spend. Anonymous Traffic.Paid acquisition is more expensive than ever — but most shoppers still bounce without converting. The old way is broken: retarget pixel audiences, guess at demographics, and hope the algorithm finds the right buyer.The realityMost of the signal that drives conversion happens beneath the surface.CAPXEL is a white-glove data consultancy — we give your marketing team the intelligence layer to identify, understand, and activate the buyers you can't see.How CAPXEL Solves ItFour products. One outcome: convert more of the traffic you already paid for.SPYBOXCapture ~75% of anonymous visitors with full identity data — so you can retarget with precision and stop paying twice for the same attention.Explore SPYBOX INSPEXUnderstand what makes your best customers tick — then find more of them. Build true avatars from 500+ data points per identity.Explore INSPEX Buyer Ambition DataTarget people actively searching for your products this week — client-specific intent data delivered fresh on a 7-day cycle.Explore Buyer Ambition Data ASOMake sure AI agents recommend your brand when shoppers ask. CAPXEL authored the LLM-LD standard.Explore ASO Results That CompoundWhen you can see who's browsing and who's ready to buy, your spend stops leaking.0xROAS improvementClients have seen 3x ROAS improvement.0xprospect acquisitionClients have seen 8x prospect acquisition.The shiftStop optimizing for clicks. Start optimizing for buyers — with an intelligence layer built for the agentic era.White-Glove Data ConsultancySee what's invisible to your competitorsConvert more of the shoppers you already paid to acquire — with identity intelligence and intent data that actually moves revenue.See what's invisible to your competitorsExplore SPYBOXFAQE-commerce teams ask us these questions before they start.How does CAPXEL identify anonymous shoppers?Can I use the data in Meta and Google?What makes Buyer Ambition Data different for e-commerce?Why does ASO matter for e-commerce brands?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceTurn Anonymous Traffic Into RevenueCAPXEL gives e-commerce brands the intelligence edge — capture every visitor, understand every buyer, and target with intent data that converts.Talk to Our TeamSee All ProductsThe iceberg is real: most signal is hidden beneath the surface.The E-",
+      "topics": [
+        "data",
+        "capxel",
+        "buyer",
+        "e-commerce",
+        "anonymous",
+        "explore",
+        "intelligence",
+        "shoppers"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Anonymous Traffic Into",
+          "type": "person"
+        },
+        {
+          "name": "Talk",
+          "type": "unknown"
+        },
+        {
+          "name": "The E-",
+          "type": "person"
+        },
+        {
+          "name": "Commerce",
+          "type": "unknown"
+        },
+        {
+          "name": "Wasted Spend. Anonymous Traffic.",
+          "type": "person"
+        },
+        {
+          "name": "Paid",
+          "type": "unknown"
+        },
+        {
+          "name": "Solves",
+          "type": "unknown"
+        },
+        {
+          "name": "One",
+          "type": "unknown"
+        },
+        {
+          "name": "Explore",
+          "type": "unknown"
+        },
+        {
+          "name": "Build",
+          "type": "unknown"
+        },
+        {
+          "name": "Buyer Ambition",
+          "type": "person"
+        },
+        {
+          "name": "Explore Buyer Ambition Data",
+          "type": "person"
+        },
+        {
+          "name": "Results That",
+          "type": "person"
+        },
+        {
+          "name": "Start",
+          "type": "unknown"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/ecommerce",
+        "relativeOutputPath": "capxel.com/ecommerce",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 335,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "57bf96caae9d",
+      "title": "CAPXEL for Sales | CAPXEL",
+      "url": "https://capxel.com/sales",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceKnow Your Prospect Before the First CallDeep consumer intelligence that gives your sales team an unfair advantage.Talk to Our TeamExplore PROSPEXThe iceberg is real: most signal is hidden beneath the surface.The Sales EdgeWhat if you knew the person behind the lead?Imagine your reps knew income range, interests, family status, and purchase behavior before they ever pick up the phone. CAPXEL gives sales teams a real intelligence layer — so every conversation starts with context.White-glove deliveryCAPXEL is a white-glove data consultancy — we don't do marketing, we empower the teams who do.Products for SalesBuild lists, enrich leads, and prioritize outreach with intelligence that actually reflects reality.PROSPEXBuild exact prospect lists — filtered by real-world attributes and intent signals. Reach the right people first.Learn more INSPEXAnalyze your best customers to create true avatars — then use those insights to qualify and personalize outreach.Learn more Buyer Ambition DataKnow who's actively looking right now — refreshed on a 7-day cycle so your outreach hits while interest is hot.Learn more SPYBOXIdentify who's already engaging with your brand. Turn unknown site traffic into warm, enriched leads.Learn more Sales Use CasesFrom outbound to close, intelligence changes the conversation.Cold outreach enrichmentStop guessing. Enrich lists with income, household, interests, and purchase behavior so reps can lead with relevance.Warm lead qualificationPrioritize who's most likely to buy based on real attributes and current intent — not form fills.Closing strategy customizationTailor the pitch to the person: benefits, objections, and framing that maps to the prospect's reality.CAPXEL IntelligenceGive your reps an unfair advantageBuild lists, qualify faster, and close with personalization that feels human — not robotic.Talk to Our TeamExplore PROSPEXFAQCommon questions from sales leaders.What kind of data can you provide for sales teams?Can this integrate with our CRM?Is this only for B2C sales?Is the data sourced lawfully?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceKnow Your Prospect Before the First CallDeep consumer intelligence that gives your sales team an unfair advantage.Talk to Our TeamExplore PROSPEXThe iceberg is real: most signal is hidden beneath the surface.The Sales EdgeWhat if you knew the person behind the lead?Imagine your r",
+      "topics": [
+        "sales",
+        "capxel",
+        "intelligence",
+        "learn",
+        "lists",
+        "outreach",
+        "data",
+        "lead"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Your Prospect Before",
+          "type": "person"
+        },
+        {
+          "name": "First",
+          "type": "unknown"
+        },
+        {
+          "name": "Talk",
+          "type": "unknown"
+        },
+        {
+          "name": "The Sales",
+          "type": "person"
+        },
+        {
+          "name": "Imagine",
+          "type": "unknown"
+        },
+        {
+          "name": "White",
+          "type": "unknown"
+        },
+        {
+          "name": "Products",
+          "type": "unknown"
+        },
+        {
+          "name": "Reach",
+          "type": "unknown"
+        },
+        {
+          "name": "Learn",
+          "type": "unknown"
+        },
+        {
+          "name": "Buyer Ambition",
+          "type": "person"
+        },
+        {
+          "name": "Turn",
+          "type": "unknown"
+        },
+        {
+          "name": "Sales Use",
+          "type": "person"
+        },
+        {
+          "name": "Cold",
+          "type": "unknown"
+        },
+        {
+          "name": "Enrich",
+          "type": "unknown"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/sales",
+        "relativeOutputPath": "capxel.com/sales",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 297,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "034c18dd871a",
+      "title": "CAPXEL for SaaS and B2B | CAPXEL",
+      "url": "https://capxel.com/saas",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceFind the Decision Makers. Close the Deals.B2B intelligence powered by the deepest consumer and business data layer in the industry.Talk to Our TeamExplore SPYBOXThe iceberg is real: most signal is hidden beneath the surface.B2B CapabilitiesCompany + stakeholder intelligence, unifiedCAPXEL connects business data, company signals, and decision-maker context so your team can stop chasing unqualified accounts. We're a white-glove data consultancy — we don't do marketing, we empower the teams who do.Company intelligenceFirmographics, company identifiers, and organizational context — aligned to the accounts that matter.Decision-maker signalsLink people to companies and roles so you can target the right stakeholders — not just generic contacts.Revenue indicatorsEmployee count, revenue signals, and growth markers to prioritize accounts by real-world buying capacity.LinkedIn & web resolutionEnrich profiles and entity signals to support outbound, ABM, and AI agent recommendations.Products for SaaSIdentify intent, build exact lists, and get recommended by AI systems.SPYBOXIdentify which companies visit your site — see account-level interest without waiting for a demo request.Learn more PROSPEXBuild exact B2B prospect lists by company attributes and stakeholder filters — then activate across outbound channels.Learn more INSPEXAnalyze your best clients and find the common signals that predict fit — then replicate the pattern at scale.Learn more ASOGet recommended by AI procurement agents. Publish machine-readable trust and product signals aligned with LLM-LD.Learn more B2B IntelligenceFind the right accounts — then win themCAPXEL gives your team the data layer to qualify, prioritize, and activate accounts with confidence.Talk to Our TeamExplore PROSPEXFAQCommon questions from SaaS and B2B teams.Can CAPXEL identify companies visiting my site?Do you provide LinkedIn enrichment?Is this built for ABM and outbound?How do you handle data security?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceFind the Decision Makers. Close the Deals.B2B intelligence powered by the deepest consumer and business data layer in the industry.Talk to Our TeamExplore SPYBOXThe iceberg is real: most signal is hidden beneath the surface.B2B CapabilitiesCompany + stakeholder intelligence, unif",
+      "topics": [
+        "b2b",
+        "accounts",
+        "data",
+        "signals",
+        "capxel",
+        "company",
+        "learn",
+        "companies"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Decision Makers. Close",
+          "type": "person"
+        },
+        {
+          "name": "Deals",
+          "type": "unknown"
+        },
+        {
+          "name": "Talk",
+          "type": "unknown"
+        },
+        {
+          "name": "Company",
+          "type": "company"
+        },
+        {
+          "name": "Decision",
+          "type": "unknown"
+        },
+        {
+          "name": "Revenue",
+          "type": "unknown"
+        },
+        {
+          "name": "Products",
+          "type": "unknown"
+        },
+        {
+          "name": "Learn",
+          "type": "unknown"
+        },
+        {
+          "name": "Publish",
+          "type": "unknown"
+        },
+        {
+          "name": "b2b",
+          "type": "topic"
+        },
+        {
+          "name": "accounts",
+          "type": "topic"
+        },
+        {
+          "name": "data",
+          "type": "topic"
+        },
+        {
+          "name": "signals",
+          "type": "topic"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/saas",
+        "relativeOutputPath": "capxel.com/saas",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 271,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "b48ad513c9fa",
+      "title": "About CAPXEL | CAPXEL",
+      "url": "https://capxel.com/about",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceThe 90% You Can't SeeOnly 10% of an iceberg is visible. The other 90% is what gives it the power to change everything. Data works the same way.Talk to Our TeamExplore ProductsThe iceberg is real: most signal is hidden beneath the surface.Who We AreAn AI-driven data intelligence companyCAPXEL is fundamentally an AI-driven data intelligence company and white-glove data consultancy. We don't do marketing — we empower the teams who do.Founded by Nick Dunev (Founder) and Dominick Luna (Co-Founder).Our MissionTo empower businesses with the most expansive, accurate, and secure consumer intelligence available anywhere.Our EdgeCAPXEL is built to reveal what other systems can't see.Deepest Data260M+ US identities and 500+ data points per profile — built for precision marketing intelligence.AI-NativeDesigned for the agentic era: structured intelligence, automated resolution, and scalable enrichment.LLM-LD AuthorsWe wrote the standard for how AI discovers businesses — a machine-readable layer agents can trust.Security-FirstAES-256 encryption and blockchain-based transfers. Security is infrastructure, not an add-on.The IcebergMost signal is hidden beneath the surfaceThe visible layer — clicks, sessions, and conversions — is only 10% of what drives growth. The other 90% is identity, behavior, intent, and context. We built CAPXEL to reveal it.Iceberg translationCAPXEL connects the hidden layer (identity + intent + behavior) to the visible layer (your marketing and sales execution). The result is intelligence your team can act on — without guessing.Our VisionHuman outcomes — powered by AI and deep dataA future where businesses leverage AI and deep consumer data to improve customer relationships and commerce — not in a way that feels robotic, but human.CAPXELSee what we can reveal for youStart with a conversation — we'll map the hidden signal in your market to the products that drive impact.Talk to Our TeamExplore ASORelated products: SPYBOX · INSPEX · Buyer Ambition Data · LANDMARX",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceThe 90% You Can't SeeOnly 10% of an iceberg is visible. The other 90% is what gives it the power to change everything.",
+      "topics": [
+        "data",
+        "intelligence",
+        "capxel",
+        "hidden",
+        "layer",
+        "built",
+        "businesses",
+        "consumer"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "You Can",
+          "type": "person"
+        },
+        {
+          "name": "Data",
+          "type": "unknown"
+        },
+        {
+          "name": "Talk",
+          "type": "unknown"
+        },
+        {
+          "name": "Who We",
+          "type": "person"
+        },
+        {
+          "name": "Founded",
+          "type": "unknown"
+        },
+        {
+          "name": "Nick Dunev",
+          "type": "person"
+        },
+        {
+          "name": "Founder",
+          "type": "unknown"
+        },
+        {
+          "name": "Dominick Luna",
+          "type": "person"
+        },
+        {
+          "name": "Deepest",
+          "type": "unknown"
+        },
+        {
+          "name": "Security",
+          "type": "unknown"
+        },
+        {
+          "name": "Iceberg",
+          "type": "unknown"
+        },
+        {
+          "name": "Buyer Ambition Data",
+          "type": "person"
+        },
+        {
+          "name": "data",
+          "type": "topic"
+        },
+        {
+          "name": "intelligence",
+          "type": "topic"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/about",
+        "relativeOutputPath": "capxel.com/about",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 298,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "517de22f0d3f",
+      "title": "Press | Capxel | CAPXEL",
+      "url": "https://capxel.com/press",
+      "content": "NewsroomPress ReleasesOfficial announcements from Capxel — the intelligence layer between brands and AI.Media inquiries: curious@capxel.comFebruary 2026TAMPA BAY, FLCapxel Launches LLM-LD, the First Open Standard for Making Websites Readable by AI AgentsNew specification gives brands a structured framework to surface in AI-powered search, recommendation engines, and autonomous agentsCapxel, the AI-native data company helping enterprises expand through intelligence-driven products, today announced the general availability of LLM-LD (Large Language Model Linked Data) — the first open standard designed to make website content natively readable by AI systems, retrieval pipelines, and autonomous agents.LLM-LD defines standardized file formats, discovery mechanisms, and conformance levels that allow any AI system to understand a website's complete content from a single index file. The specification is available under a Creative Commons BY 4.0 license at llmld.org.“JSON-LD solved machine readability for search engines. LLM-LD solves it for AI. Every major AI system — ChatGPT, Gemini, Perplexity, Claude — retrieves and synthesizes web content differently than traditional search crawlers. There was no standard for how websites should present themselves to these systems. Now there is.”“We're seeing a shift in how forward-thinking brands approach their digital presence. The companies that structure their content for AI agents today will be the ones those agents recommend tomorrow. LLM-LD gives every brand — regardless of size or technical capability — a clear path to get there.”As AI agents increasingly mediate how consumers discover products, services, and information, brands face a new visibility challenge. Recent industry research found that fewer than 1.2% of brand locations receive direct recommendations from leading AI assistants — not because the businesses lack quality, but because their content isn't structured for AI consumption.LLM-LD addresses this with a standardized index file, structured entity data, knowledge graphs, product feeds, an AI Discovery Page specification, and three conformance levels from basic discoverability to full agent-readiness.Since its launch, LLM-LD has seen rapid adoption across multiple industries including healthcare, luxury retail, professional services, and e-commerce. The companion LLM Disco Network (llmdisco.com) has attracted implementation partners across the agency ecosystem.LLM-LD is free and open. Any developer, agency, or platform can implement it without licensing fees or vendor lock-in. Capxel provides enterprise-grade implementation services for brands requiring managed deployment, ongoing optimization, and performance analytics.February 2026TAMPA BAY, FLAs AI Agents Replace Search Engines, Capxel Introduces AI Search Optimization — A New Category of Brand IntelligenceCapxel's ASO framework helps enterprises become discoverable, recommended, and cited by AI systems — before competitors realize the landscape has shiftedCapxel, the AI-native data company helping enterprises expand through intelligence-driven products, today introduced AI Search Optimization (ASO) as a defined commercial discipline — a new category of brand intelligence designed to make enterprises visible to AI agents, recommendation engines, and retrieval systems that are rapidly displacing traditional search.While the digital marketing industry remains focused on optimizing for Google's 10 blue links, a fundamental shift is underway. Consumers are increasingly turning to AI assistants — ChatGPT, Gemini, Perplexity, Claude — for purchasing decisions, service recommendations, and information discovery. These systems don't crawl and rank pages. They retrieve, synthesize, and recommend. And the vast majority of brands are invisible to them.“Every company has an SEO strategy. Almost none have an ASO strategy. The brands that show up when an AI agent answers 'What's the best product for my use case?' will capture the next decade of consumer attention. The ones that don't will wonder where their traffic went.”“This isn't a future problem. It's a current blind spot. The infrastructure to make brands readable by AI systems exists today. Most companies simply don't know it's available — or that they need it.”Industry data tells a stark story. SOCi's 2026 Local Visibility Index — the most comprehensive benchmark of multi-location brand performance, covering 350,000+ locations and 2,751 brands — added AI visibility as a core metric for the first time this year. Their findings: the gap between brands optimized for AI and those that aren't is already significant and accelerating.Capxel's ASO implementation includes structured AI layers built on the open LLM-LD standard (llmld.org), machine-readable knowledge architectures, ongoing intelligence and analytics, and white-label deployment through a growing network of agency partners.Capxel positions ASO not as a feature or add-on, but as an entirely new category of digital infrastructure — one that sits alongside SEO, paid media, and CRM as a core component of enterprise marketing architecture.“We didn't build a tool. We solved a problem no one else was addressing. Three years from now, every enterprise will have an ASO strategy the same way they have an SEO strategy today. The question is who gets there first.”About CapxelCapxel is an AI-native data company helping enterprises expand through intelligence-driven products. Founded in Tampa Bay, Florida, Capxel provides enterprise data solutions including AI Search Optimization (ASO), behavioral intelligence, identity resolution, and consumer enrichment across 260M+ profiles. Learn more at capxel.com.LLM-LD and the LLM-LD specification are released under Creative Commons Attribution 4.0 International License (CC BY 4.0).",
+      "summary": "NewsroomPress ReleasesOfficial announcements from Capxel — the intelligence layer between brands and AI.Media inquiries: curious@capxel.comFebruary 2026TAMPA BAY, FLCapxel Launches LLM-LD, the First Open Standard for Making Websites Readable by AI AgentsNew specification gives brands a structured framework to surface i",
+      "topics": [
+        "llm-ld",
+        "brands",
+        "capxel",
+        "search",
+        "aso",
+        "data",
+        "agents",
+        "systems"
+      ],
+      "entities": [
+        {
+          "name": "Capxel",
+          "type": "unknown"
+        },
+        {
+          "name": "Media",
+          "type": "unknown"
+        },
+        {
+          "name": "Launches",
+          "type": "unknown"
+        },
+        {
+          "name": "First Open Standard",
+          "type": "person"
+        },
+        {
+          "name": "Making Websites Readable",
+          "type": "person"
+        },
+        {
+          "name": "Large Language Model Linked",
+          "type": "person"
+        },
+        {
+          "name": "Data",
+          "type": "unknown"
+        },
+        {
+          "name": "Creative Commons",
+          "type": "person"
+        },
+        {
+          "name": "Every",
+          "type": "unknown"
+        },
+        {
+          "name": "Gemini",
+          "type": "unknown"
+        },
+        {
+          "name": "Perplexity",
+          "type": "unknown"
+        },
+        {
+          "name": "Claude",
+          "type": "unknown"
+        },
+        {
+          "name": "Now",
+          "type": "unknown"
+        },
+        {
+          "name": "Recent",
+          "type": "unknown"
+        },
+        {
+          "name": "Discovery Page",
+          "type": "person"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/press",
+        "relativeOutputPath": "capxel.com/press",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 813,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "5c630c6127aa",
+      "title": "The Capxel Blog",
+      "url": "https://capxel.com/blog",
+      "content": "The Capxel Blog | CAPXEL",
+      "summary": "The Capxel Blog | CAPXEL",
+      "topics": [
+        "capxel",
+        "blog"
+      ],
+      "entities": [
+        {
+          "name": "The Capxel Blog",
+          "type": "person"
+        },
+        {
+          "name": "capxel",
+          "type": "topic"
+        },
+        {
+          "name": "blog",
+          "type": "topic"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        },
+        {
+          "type": "links_to",
+          "target": "43e1b1f74073",
+          "targetTitle": "Free AI Readability Test | CAPXEL"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/blog",
+        "relativeOutputPath": "capxel.com/blog",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 5,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "6600734aad8f",
+      "title": "Data Security | CAPXEL | CAPXEL",
+      "url": "https://capxel.com/security",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceYour Data. Fort Knox.We go above and beyond industry standards. Because when you handle 260M+ identities, security isn't optional — it's foundational.Talk to Our TeamExplore ProductsThe iceberg is real: most signal is hidden beneath the surface.Security PracticesBuilt like infrastructureCAPXEL is a white-glove data consultancy. We protect what we handle with the assumption that security is not a feature — it's the foundation.AES-256 EncryptionMilitary/bank-grade encryption for data at rest and in transit.Secure TransfersEnd-to-end encryption + cryptographic splitting + one-time passwords + self-destructive links.AI AnonymizationAll PII is fully anonymized before any AI processing — protecting sensitive information by design.Internal ProtocolsSecurity-trained staff, access limitations, and strict controls across the delivery lifecycle.Our CommitmentSecurity is core infrastructure — not an add-onWe designed CAPXEL to handle sensitive identity intelligence responsibly. From encryption to access control, every layer is built to minimize risk and maximize accountability.Security-first by designFrom anonymization before AI processing to secure transfer workflows, CAPXEL treats security like critical infrastructure.Ask a questionCAPXEL SecurityQuestionsQuestions about our security practices?We'll walk you through how we protect data across encryption, transfers, anonymization, and internal controls.Talk to Our TeamView Security OverviewFAQSecurity questions we answer most often.Do you encrypt data at rest and in transit?How do you deliver files securely?Does AI ever see raw PII?Who can access customer data internally?",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceYour Data. Fort Knox.We go above and beyond industry standards.",
+      "topics": [
+        "data",
+        "security",
+        "capxel",
+        "encryption",
+        "access",
+        "handle",
+        "across",
+        "anonymization"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Data",
+          "type": "unknown"
+        },
+        {
+          "name": "Fort Knox.",
+          "type": "person"
+        },
+        {
+          "name": "Talk",
+          "type": "unknown"
+        },
+        {
+          "name": "Security",
+          "type": "unknown"
+        },
+        {
+          "name": "Secure",
+          "type": "unknown"
+        },
+        {
+          "name": "Internal",
+          "type": "unknown"
+        },
+        {
+          "name": "Ask",
+          "type": "unknown"
+        },
+        {
+          "name": "data",
+          "type": "topic"
+        },
+        {
+          "name": "security",
+          "type": "topic"
+        },
+        {
+          "name": "capxel",
+          "type": "topic"
+        },
+        {
+          "name": "encryption",
+          "type": "topic"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/security",
+        "relativeOutputPath": "capxel.com/security",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 213,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "c9af424ce497",
+      "title": "CAPXEL Security — DOSXIER | CAPXEL",
+      "url": "https://capxel.com/capxel-security",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceIntelligence-Grade Security for Those Who ProtectCAPXEL Security — a separate intelligence division powered by the same deep-data AI infrastructure.Talk to CAPXELView CAPXEL Security PracticesThe iceberg is real: most signal is hidden beneath the surface.Meet DOSXIERDecision-ready intelligence, delivered in under 24 hoursDOSXIER is the world's first AI intelligence system that compiles and delivers complete, decision-ready subject analyses in under 24 hours. Collection is 93% faster — without sacrificing rigor.Built on CAPXEL infrastructureCAPXEL Security is a separate division — powered by the same deep-data AI foundations that drive our consumer intelligence products.Visit capxelsecurity.com 8 Intelligence CategoriesDOSXIER compiles and synthesizes intelligence across eight core categories — delivered as a clean, decision-ready report.Identity IntelligenceCore identity resolution, verification, and key identifiers.Contact & CommunicationsPhone, email, and communications surface area for lawful outreach and verification.Associates & NetworksRelationship mapping and contextual networks tied to the subject.Occupational FootprintEmployment, professional presence, and work-linked signals.Criminal & VehicularLawful public-record and vehicular context where applicable.Digital & DarkwebDigital footprint intelligence and exposed-signal discovery.Behavioral & PsychologicalPattern and risk signal synthesis to support protective decision-making.Threat / Geo / Cognitive AnalysisThreat context, geographic risk factors, and decision-ready prioritization.Who It's ForProfessionals who protect people and organizations — and need fast, lawful, decision-ready intelligence.Executive ProtectionDossiers that accelerate planning, route decisions, and threat screening.Private InvestigationDecision-ready subject analysis delivered fast — built for field reality.Corporate SecurityFaster, cleaner intelligence for risk teams protecting people, facilities, and operations.Law EnforcementSupportive analysis from lawful sources — designed to reduce collection time and improve clarity.Speed Meets Substance93% faster collection. <24h delivery. 100% lawful sources.DOSXIER compresses collection, verification, and synthesis into a single intelligence workflow — so teams can make faster, safer decisions.CAPXEL SecurityJoin the waitlistThis is a bridge page. The full experience lives at capxelsecurity.com.Join the Waitlist Talk to CAPXELRelated: Data Security · SPYBOX · INSPEX",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceIntelligence-Grade Security for Those Who ProtectCAPXEL Security — a separate intelligence division powered by the same deep-data AI infrastructure.Talk to CAPXELView CAPXEL Security PracticesThe iceberg is real: most signal is hidden beneath the surface.Meet DOSXIERDecision-read",
+      "topics": [
+        "intelligence",
+        "capxel",
+        "security",
+        "collection",
+        "decision-ready",
+        "lawful",
+        "delivered",
+        "faster"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Grade Security",
+          "type": "person"
+        },
+        {
+          "name": "Those Who",
+          "type": "person"
+        },
+        {
+          "name": "Security",
+          "type": "unknown"
+        },
+        {
+          "name": "Talk",
+          "type": "unknown"
+        },
+        {
+          "name": "Meet",
+          "type": "unknown"
+        },
+        {
+          "name": "Collection",
+          "type": "unknown"
+        },
+        {
+          "name": "Built",
+          "type": "unknown"
+        },
+        {
+          "name": "Visit",
+          "type": "unknown"
+        },
+        {
+          "name": "Intelligence",
+          "type": "unknown"
+        },
+        {
+          "name": "Identity",
+          "type": "unknown"
+        },
+        {
+          "name": "Contact",
+          "type": "unknown"
+        },
+        {
+          "name": "Associates",
+          "type": "unknown"
+        },
+        {
+          "name": "Occupational",
+          "type": "unknown"
+        },
+        {
+          "name": "Criminal",
+          "type": "unknown"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/capxel-security",
+        "relativeOutputPath": "capxel.com/capxel-security",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 294,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "b28262d9412a",
+      "title": "Contact CAPXEL | CAPXEL",
+      "url": "https://capxel.com/contact",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceLet's TalkWhether you're exploring ASO, intent data, or the full CAPXEL intelligence suite — start with a conversation.Send a MessageExplore ProductsThe iceberg is real: most signal is hidden beneath the surface.ContactStart with a conversationCAPXEL is a white-glove data consultancy. We'll respond within 24 hours.Prefer email?Reach us at curious@capxel.com.If you're not sure which product you need, send your goals — we'll route you to the right path.Related: ASO · SPYBOX · Buyer Ambition Data",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceLet's TalkWhether you're exploring ASO, intent data, or the full CAPXEL intelligence suite — start with a conversation.Send a MessageExplore ProductsThe iceberg is real: most signal is hidden beneath the surface.ContactStart with a conversationCAPXEL is a white-glove data consult",
+      "topics": [
+        "capxel",
+        "data",
+        "aso",
+        "send",
+        "ai-native",
+        "ambition",
+        "beneath",
+        "buyer"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Send",
+          "type": "unknown"
+        },
+        {
+          "name": "Prefer",
+          "type": "unknown"
+        },
+        {
+          "name": "Reach",
+          "type": "unknown"
+        },
+        {
+          "name": "Related",
+          "type": "unknown"
+        },
+        {
+          "name": "Buyer Ambition Data",
+          "type": "person"
+        },
+        {
+          "name": "capxel",
+          "type": "topic"
+        },
+        {
+          "name": "data",
+          "type": "topic"
+        },
+        {
+          "name": "aso",
+          "type": "topic"
+        },
+        {
+          "name": "send",
+          "type": "topic"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/contact",
+        "relativeOutputPath": "capxel.com/contact",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 77,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "637aefba6f7e",
+      "title": "Apply to CAPXEL | CAPXEL",
+      "url": "https://capxel.com/application",
+      "content": "CAPXEL — AI-Native Consumer IntelligenceApply to Work With CAPXELWe work with serious brands ready to leverage deep data intelligence. Tell us about your business.Apply NowTalk to Our TeamThe iceberg is real: most signal is hidden beneath the surface.ApplicationTell us about your businessAll applications are reviewed within 48 hours.What happens next?We review fit and reach back out with next steps. If approved, we'll map the best CAPXEL products to your goals.Explore: INSPEX · PROSPEX · ASO",
+      "summary": "CAPXEL — AI-Native Consumer IntelligenceApply to Work With CAPXELWe work with serious brands ready to leverage deep data intelligence. Tell us about your business.Apply NowTalk to Our TeamThe iceberg is real: most signal is hidden beneath the surface.ApplicationTell us about your businessAll applications are reviewed w",
+      "topics": [
+        "capxel",
+        "apply",
+        "next",
+        "work",
+        "ai-native",
+        "applications",
+        "applicationtell",
+        "approved"
+      ],
+      "entities": [
+        {
+          "name": "Native Consumer",
+          "type": "person"
+        },
+        {
+          "name": "Work With",
+          "type": "person"
+        },
+        {
+          "name": "Tell",
+          "type": "unknown"
+        },
+        {
+          "name": "Apply",
+          "type": "unknown"
+        },
+        {
+          "name": "Explore",
+          "type": "unknown"
+        },
+        {
+          "name": "capxel",
+          "type": "topic"
+        },
+        {
+          "name": "apply",
+          "type": "topic"
+        },
+        {
+          "name": "next",
+          "type": "topic"
+        },
+        {
+          "name": "work",
+          "type": "topic"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/application",
+        "relativeOutputPath": "capxel.com/application",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 75,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "9ab3ba6903f8",
+      "title": "CAPXEL — AI-Native Consumer Intelligence",
+      "url": "https://capxel.com/privacy",
+      "content": "CAPXEL Privacy PolicyUpdated July 25, 2024This Privacy Policy explains how CAPXEL (\"CAPXEL\", \"we\", \"us\", or \"our\") collects, uses, discloses, and protects information in connection with our data marketing services, identity and enrichment products, corporate website, and related offerings (collectively, the \"Services\").Table of Contents1. Information That We Collect and Use2. How We Use the Information3. How We Share Information4. Your Marketing and Opt-Out Choices5. Cookies and Similar Technologies6. Data Collected Through Our Corporate Website7. Links8. Security and Data Integrity9. Children's Privacy10. Changes to this Privacy Policy11. Storage of Information in the United States12. Data Retention13. California Privacy Rights14. Nevada Privacy RightsEU Privacy Policy (GDPR)1. Information That We Collect and UseCAPXEL provides data and marketing intelligence products and services. In connection with those Services, we may collect, receive, license, or otherwise obtain information about individuals and households from a variety of sources, including public records, partners, data licensors, and information that businesses share with us.Examples of the types of information we may collect and use include:Interests and inferred preferences, such as purchase interests, lifestyle categories, or likely affinities.Organizations and business affiliations, such as professional associations or company-level relationships where available.Public information, including information available from government records, publicly available sources, or information published online.Demographic information, such as age range, general location, household attributes, or similar segmentation data.We do not intend to collect sensitive information unless permitted by applicable law and our contracts. The exact data elements we process may vary by product, customer needs, and legal requirements.2. How We Use the InformationWe use information to provide and improve the Services, and to help our customers and partners better understand audiences, measure marketing performance, and deliver relevant content.Data Marketing ServicesWe may use information to create audience segments, analytics, and insights that customers use for marketing, advertising, lead generation, measurement, and related purposes.Online TargetingWe may help customers reach audiences across websites, apps, and channels, including by enabling targeting, suppression, attribution, and campaign measurement.Identity ProductsWe may use information to resolve identities, link signals, and maintain consistent identifiers (for example, to support privacy-safe matching and analytics).Additional Marketing ServicesWe may provide enrichment, validation, data hygiene, modeling, and other related services to help customers maintain accurate and useful datasets.To Operate Our ServicesWe also use information to operate, secure, maintain, and improve the Services; troubleshoot; perform audits; prevent fraud and abuse; and comply with legal obligations.Legal Basis for Processing (where applicable)Depending on the context and jurisdiction, we may process information under the following legal bases:Contractual Necessity — to perform contracts with customers and partners.Consent — where consent is required (for example, certain cookie or marketing choices).Legitimate Interests — to provide, secure, and improve the Services, and to support privacy-safe marketing and analytics (balanced against individual rights).Compliance — to comply with applicable laws, regulations, and lawful requests.3. How We Share InformationWe may share information in the following circumstances (subject to contractual and legal restrictions):With Customers — to deliver the Services, including audience and measurement products.With Partners — such as data licensors, platforms, and distribution partners that support or enable the Services.With Service Providers — vendors who perform services for us (e.g., hosting, security, analytics), subject to confidentiality and data protection obligations.Corporate Transfers — in connection with a merger, acquisition, financing, reorganization, bankruptcy, or sale of assets.With Affiliates — where necessary to provide the Services and operate our business.For Legal Reasons — to comply with law, regulation, court orders, subpoenas, or lawful requests; to protect rights and safety; and to prevent fraud or security incidents.4. Your Marketing and Opt-Out ChoicesYou may have choices about the use of your information for interest-based advertising or marketing.Website Opt-Out — you may opt out of certain marketing uses where we provide an opt-out mechanism on our website.DMAchoice — you may also use industry opt-out tools such as DMAchoice (where available).NAI / DAA — you can opt out of interest-based advertising from participating companies via the Network Advertising Initiative (NAI) and the Digital Advertising Alliance (DAA).Email Unsubscribe — if you receive promotional emails from us, you can unsubscribe using the link in the message.Opt-out tools are typically browser- and device-specific and may be affected by clearing cookies or using a different browser or device.6. Data Collected Through Our Corporate WebsiteWhen you visit our corporate website or contact us, we may collect information you provide directly and information collected automatically.Information we may collectContact information (such as name, email address, company, and role).Inquiry details and communications you send to us.Device and usage information (such as IP address, browser type, pages viewed, and timestamps).How we use itTo respond to inquiries and provide requested information.To operate, maintain, and improve the website.To secure the website and prevent misuse.To understand engagement and measure the effectiveness of communications.Your Data RightsDepending on your location, you may have rights regarding personal data, including: Access, Rectification, Erasure, Restrict processing, Data Portability, Object to processing, and Withdraw Consent.To exercise applicable rights, contact: legal@capxel.com. We may need to verify your request.7. LinksOur website and Services may contain links to third-party websites or services. We are not responsible for the privacy practices or content of those third parties. We encourage you to review their privacy policies.8. Security and Data IntegrityWe use administrative, technical, and physical safeguards designed to protect information. Measures may include encryption, hashing and tokenization techniques where appropriate, access controls, monitoring, and vendor security reviews. No system is 100% secure; we cannot guarantee absolute security.9. Children's PrivacyThe Services are not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided personal information to us, contact us and we will take appropriate steps.10. Changes to this Privacy PolicyWe may update this Privacy Policy from time to time. We will post the updated version on this page and update the \"Updated\" date above.11. Storage of Information in the United StatesCAPXEL is based in the United States and may process and store information in the United States and other countries where we or our service providers operate.International Data TransfersIf you are located outside the United States, your information may be transferred to and processed in the United States, which may have different data protection laws than your jurisdiction.EEA Transfers / SCCsWhere applicable for transfers from the EEA/UK/Switzerland, we may rely on approved transfer mechanisms such as Standard Contractual Clauses (SCCs) and other safeguards.12. Data RetentionWe retain information for as long as necessary to provide the Services, comply with legal obligations, resolve disputes, enforce agreements, and for legitimate business needs. Retention periods may vary depending on the type of information and context.13. California Privacy RightsCalifornia residents may have rights under the California Consumer Privacy Act (CCPA), as amended, including the right to know, delete, correct, and opt out of certain disclosures of personal information. Where applicable, CAPXEL will provide notices and processes consistent with the CCPA.14. Nevada Privacy RightsNevada residents may have rights under the Nevada Privacy Act (NPA) regarding certain sales of covered information. If applicable, you may submit a request consistent with Nevada law.EU Privacy Policy (GDPR)If you are located in the European Economic Area (EEA), the United Kingdom, or Switzerland, CAPXEL aims to process personal data in accordance with the General Data Protection Regulation (GDPR) and applicable local laws. This includes honoring applicable data subject rights, using lawful bases for processing, and applying appropriate safeguards for international transfers.ContactQuestions about this Privacy Policy can be sent to legal@capxel.com.",
+      "summary": "CAPXEL Privacy PolicyUpdated July 25, 2024This Privacy Policy explains how CAPXEL (\"CAPXEL\", \"we\", \"us\", or \"our\") collects, uses, discloses, and protects information in connection with our data marketing services, identity and enrichment products, corporate website, and related offerings (collectively, the \"Services\")",
+      "topics": [
+        "information",
+        "data",
+        "privacy",
+        "services",
+        "marketing",
+        "applicable",
+        "legal",
+        "provide"
+      ],
+      "entities": [
+        {
+          "name": "Privacy",
+          "type": "unknown"
+        },
+        {
+          "name": "July",
+          "type": "unknown"
+        },
+        {
+          "name": "Privacy Policy",
+          "type": "person"
+        },
+        {
+          "name": "Services",
+          "type": "unknown"
+        },
+        {
+          "name": "Table",
+          "type": "unknown"
+        },
+        {
+          "name": "Information That We Collect",
+          "type": "person"
+        },
+        {
+          "name": "How We Use",
+          "type": "person"
+        },
+        {
+          "name": "How We Share Information4",
+          "type": "person"
+        },
+        {
+          "name": "Your Marketing",
+          "type": "person"
+        },
+        {
+          "name": "Opt",
+          "type": "unknown"
+        },
+        {
+          "name": "Out Choices5. Cookies",
+          "type": "person"
+        },
+        {
+          "name": "Similar Technologies6. Data Collected",
+          "type": "person"
+        },
+        {
+          "name": "Through Our Corporate Website7",
+          "type": "person"
+        },
+        {
+          "name": "Security",
+          "type": "unknown"
+        },
+        {
+          "name": "Data Integrity9. Children",
+          "type": "person"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/privacy",
+        "relativeOutputPath": "capxel.com/privacy",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 1223,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "8fdf97c05ed3",
+      "title": "CAPXEL — AI-Native Consumer Intelligence",
+      "url": "https://capxel.com/terms",
+      "content": "CAPXEL Terms of ServiceUpdated October 1, 2024These Terms of Service (\"Terms\") govern access to and use of CAPXEL's websites, products, software, analytics, AI-enabled tools, tracking tags, and related services (collectively, the \"Services\"). By accessing or using the Services, you agree to these Terms. If you are using the Services on behalf of an organization, you represent and warrant that you are authorized to bind that organization.Table of ContentsPart 1: General Terms of ServicePart 2: CAPXEL Terms of Service (ToS) — Effective 1 Oct 2024Part 1: General Terms of Service1. Acceptance of TermsBy using the Services, you agree to comply with these Terms and all applicable laws and regulations. If you do not agree, do not use the Services.2. Services DescriptionCAPXEL provides data intelligence and marketing enablement services, including AI-enabled tools and products, analytics, identity resolution, enrichment, and tracking tags or scripts that may be placed on client properties to support measurement and related functionality. Services may change over time.3. User AccountsSome Services require an account. You are responsible for maintaining the confidentiality of account credentials and for all activity under your account. You must promptly notify CAPXEL of any unauthorized use or security incident.4. Payment TermsFees may be subscription-based or one-time, and are as set forth in a signed order form, statement of work, master services agreement, or other written agreement with CAPXEL. Access to paid Services may require execution of a signed agreement.5. Use of ServicesYou agree to use the Services only for lawful purposes and in accordance with these Terms. You will not:Use the Services to violate any law, regulation, or third-party rights.Use the Services to develop, train, or improve any AI or machine learning model, except as expressly authorized in writing by CAPXEL.Introduce malicious code, malware, or attempt to disrupt the Services.Attempt to gain unauthorized access to systems, accounts, or data.Reverse engineer, decompile, or attempt to extract source code except to the extent permitted by law.6. Data Handling and PrivacyCAPXEL's processing of information is described in our Privacy Policy. Where CAPXEL provides AI-enabled features, CAPXEL intends to anonymize or de-identify personal information before using it within AI workflows, where feasible and appropriate for the feature.7. Intellectual PropertyCAPXEL and its licensors own the Services, including all software, technology, documentation, and CAPXEL data and deliverables unless otherwise stated in a signed agreement. Subject to these Terms and payment of applicable fees, CAPXEL grants you a limited, non-exclusive, non-transferable license to use the Services for your internal business purposes.8. User ResponsibilitiesYou are responsible for your use of the Services, for ensuring your Authorized Users comply with these Terms, and for obtaining all necessary rights, permissions, and consents for data you provide to CAPXEL.9. TerminationCAPXEL may suspend or terminate access to the Services if you breach these Terms, if required by law, or to protect the security and integrity of the Services. Termination does not relieve payment obligations incurred prior to termination.10. Dispute ResolutionAny dispute arising from or relating to these Terms or the Services will be resolved by binding arbitration administered by the American Arbitration Association (AAA) in Florida, unless otherwise required by law. You and CAPXEL waive the right to a jury trial.11. Governing LawThese Terms are governed by the laws of the State of Florida, without regard to conflict of laws principles.12. Changes to TermsWe may update these Terms from time to time. If we make material changes, we will post the updated Terms and update the effective date. Continued use of the Services after the change becomes effective constitutes acceptance.13. Contact InformationQuestions about these Terms can be sent to legal@capxel.com.Part 2: CAPXEL Terms of Service (ToS) — Effective 1 Oct 2024This Part 2 contains additional, MSA-style terms that may apply when a customer enters into a signed agreement with CAPXEL (such as an order form, statement of work, or master services agreement). In the event of a conflict, the signed agreement controls.DefinitionsThe following definitions apply for purposes of these ToS, unless otherwise defined in a signed agreement:\"AI Services\" means any CAPXEL-provided features that use machine learning, large language models, automated decisioning, or similar techniques to generate outputs, recommendations, classifications, or insights.\"Authorized User\" means an individual authorized by Client to access the CAPXEL Platform under Client's account.\"BACKTRAX Data\" means data products, datasets, signals, identifiers, segments, or other data assets branded or designated as BACKTRAX.\"CAPXEL Data\" means data provided by CAPXEL (including BACKTRAX Data) and any derived or aggregated data generated by CAPXEL in providing the Services, excluding Client Data.\"CAPXEL Platform\" means the CAPXEL-hosted platform(s), dashboards, APIs, connectors, scripts, and related tooling through which the Services are delivered.\"CAPXEL Services\" means the services and products provided by CAPXEL, including Data Services, AI Services, implementation, support, and professional services.\"CAPXEL Technology\" means CAPXEL's software, models, methodologies, trade secrets, know-how, interfaces, and other technology used to provide the CAPXEL Services.\"Client Data\" means data submitted to CAPXEL by or on behalf of Client (including through tags, APIs, uploads, or integrations), including event data and first-party data.\"Client Materials\" means Client-provided content, brand assets, copy, creative, specifications, and other materials provided for use with the Services.\"Client Properties\" means websites, apps, domains, and other digital properties controlled by Client where CAPXEL tags, scripts, SDKs, or integrations may be deployed.\"Data Services\" means identity resolution, enrichment, analytics, audience segmentation, measurement, and related data processing services provided by CAPXEL.\"Deliverables\" means the outputs provided to Client under an order form or statement of work, such as reports, exports, models, segments, mappings, or configurations.\"Documentation\" means CAPXEL's user guides, API docs, specifications, and other written materials describing the Services.\"INSPEX\", \"LANDMARX\", and \"SPYBOX\"mean CAPXEL-branded products, modules, or offerings identified by those names, as described in applicable Documentation or order forms.Scope of ServicesCAPXEL will provide the CAPXEL Services as described in the applicable order form, statement of work, or Documentation. Client is responsible for configuration choices and for ensuring use is compliant with law.Client ResponsibilitiesProvide accurate information, timely access, and cooperation as reasonably needed.Deploy tags/scripts only on Client Properties where Client has authority to do so.Maintain required notices, consents, and opt-out mechanisms for end users where applicable.Ensure Client Data is collected and shared with CAPXEL lawfully.Data HandlingCAPXEL may process Client Data to provide the Services and to maintain and improve CAPXEL Technology, subject to contract restrictions. Where feasible for AI features, CAPXEL intends to anonymize or de-identify personal information before AI processing.Intellectual Property & LicenseClient retains ownership of Client Data and Client Materials. CAPXEL retains ownership of CAPXEL Technology, CAPXEL Data, and any general-purpose improvements, methods, or learnings. Subject to the agreement and payment of fees, CAPXEL grants Client a limited, non-exclusive, non-transferable license to use the CAPXEL Services and Deliverables for Client's internal business purposes.ConfidentialityEach party may receive Confidential Information from the other. Each party will protect the other's Confidential Information using reasonable care and will use it only to perform under the agreement. Confidential Information does not include information that is publicly available through no fault of the receiving party.Warranties & DisclaimersExcept as expressly stated in a signed agreement, the Services are provided \"as is\" and \"as available\". CAPXEL disclaims all implied warranties to the maximum extent permitted by law, including merchantability, fitness for a particular purpose, and non-infringement. Data and AI outputs may be probabilistic and may contain errors.Limitation of LiabilityTo the maximum extent permitted by law, CAPXEL will not be liable for indirect, incidental, special, consequential, or punitive damages, or for loss of profits, revenue, data, or goodwill. CAPXEL's total liability will be limited as set forth in the signed agreement or, if not specified, to the amounts paid by Client for the Services giving rise to the claim during the 12 months preceding the event.TerminationEither party may terminate as set forth in the signed agreement. Upon termination, Client's right to use the Services ends, and Client must stop using the Services and delete or return CAPXEL Confidential Information as required.Order of PrecedenceIf there is a conflict between these Terms and an executed order form or MSA, the executed agreement controls for the relevant Services.ContactFor legal inquiries: legal@capxel.com.",
+      "summary": "CAPXEL Terms of ServiceUpdated October 1, 2024These Terms of Service (\"Terms\") govern access to and use of CAPXEL's websites, products, software, analytics, AI-enabled tools, tracking tags, and related services (collectively, the \"Services\"). By accessing or using the Services, you agree to these Terms.",
+      "topics": [
+        "services",
+        "capxel",
+        "data",
+        "client",
+        "terms",
+        "agreement",
+        "means",
+        "information"
+      ],
+      "entities": [
+        {
+          "name": "Terms",
+          "type": "unknown"
+        },
+        {
+          "name": "October",
+          "type": "unknown"
+        },
+        {
+          "name": "Service",
+          "type": "unknown"
+        },
+        {
+          "name": "Services",
+          "type": "unknown"
+        },
+        {
+          "name": "Table",
+          "type": "unknown"
+        },
+        {
+          "name": "General Terms",
+          "type": "person"
+        },
+        {
+          "name": "Effective",
+          "type": "unknown"
+        },
+        {
+          "name": "Oct",
+          "type": "unknown"
+        },
+        {
+          "name": "Acceptance",
+          "type": "unknown"
+        },
+        {
+          "name": "User",
+          "type": "unknown"
+        },
+        {
+          "name": "Payment",
+          "type": "unknown"
+        },
+        {
+          "name": "Access",
+          "type": "unknown"
+        },
+        {
+          "name": "Introduce",
+          "type": "unknown"
+        },
+        {
+          "name": "Attempt",
+          "type": "unknown"
+        },
+        {
+          "name": "Reverse",
+          "type": "unknown"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/terms",
+        "relativeOutputPath": "capxel.com/terms",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 1327,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "583c8c3ee4cf",
+      "title": "CAPXEL — AI-Native Consumer Intelligence",
+      "url": "https://capxel.com/cookie",
+      "content": "CAPXEL Cookie PolicyUpdated July 25, 2024This Cookie Policy explains how CAPXEL uses cookies and similar technologies on our corporate website and in connection with certain Services.How do we use cookies?We may use cookies and similar technologies to:Enable core site functionality and security.Remember preferences and improve user experience.Measure traffic and understand engagement.Support communications and campaign measurement using pixels/tags where applicable.Your cookie choicesMost browsers let you control cookies through settings, including the ability to delete cookies or block cookies. If you block cookies, some features of the site may not work properly.GDPR compliance noteWhere required by applicable law (including GDPR), we seek appropriate consent for non-essential cookies and provide relevant information about cookie usage and choices.Contact UsQuestions about this Cookie Policy can be sent to support@capxel.com.",
+      "summary": "CAPXEL Cookie PolicyUpdated July 25, 2024This Cookie Policy explains how CAPXEL uses cookies and similar technologies on our corporate website and in connection with certain Services.How do we use cookies?We may use cookies and similar technologies to:Enable core site functionality and security.Remember preferences and",
+      "topics": [
+        "cookies",
+        "cookie",
+        "capxel",
+        "applicable",
+        "block",
+        "gdpr",
+        "including",
+        "policy"
+      ],
+      "entities": [
+        {
+          "name": "Cookie",
+          "type": "unknown"
+        },
+        {
+          "name": "July",
+          "type": "unknown"
+        },
+        {
+          "name": "Cookie Policy",
+          "type": "person"
+        },
+        {
+          "name": "Services",
+          "type": "unknown"
+        },
+        {
+          "name": "Enable",
+          "type": "unknown"
+        },
+        {
+          "name": "Remember",
+          "type": "unknown"
+        },
+        {
+          "name": "Measure",
+          "type": "unknown"
+        },
+        {
+          "name": "Support",
+          "type": "unknown"
+        },
+        {
+          "name": "Contact",
+          "type": "unknown"
+        },
+        {
+          "name": "cookies",
+          "type": "topic"
+        },
+        {
+          "name": "cookie",
+          "type": "topic"
+        },
+        {
+          "name": "capxel",
+          "type": "topic"
+        },
+        {
+          "name": "applicable",
+          "type": "topic"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/cookie",
+        "relativeOutputPath": "capxel.com/cookie",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 124,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "a3a06727cc38",
+      "title": "CAPXEL — AI Discovery",
+      "url": "https://capxel.com/ai-discovery.html",
+      "content": "## CAPXEL — AI Discovery\n\n This page provides discovery links to CAPXEL’s machine-readable AI layer. It is intended for AI crawlers, agents, and developers.\n\n If you followed a footer link to get here — this is the index behind the AI-Optimized badge. It helps AI systems find and understand public content. No private data, credentials, or restricted endpoints are exposed.\n\n ## Resources\n\n 1. Complete site-wide machine-readable index application/json\n2. Plain-text summary and link manifest text/plain\n3. Full URL listing for AI-layer pages application/xml\n4. Structured entity data application/json\n5. Entity relationships and contextual links application/json\n\n ## Verification\n\n Pending\n\n Onboarding to the [LLM Disco Directory](https://llmdisco.com/directory). Conformance: Agent-Ready (Level 3).\n\n ## About This Standard\n\n AI Search Optimization (ASO)\n\n ASO is the practice of structuring public website content so it can be reliably discovered, understood, and cited by AI systems, retrieval pipelines, and autonomous agents. This page is part of that practice.\n\n LLM-LD 1.0 — Open Standard\n\n This AI layer is built on **LLM-LD** (Large Language Model Linked Data) — an open standard for making websites machine-readable to AI. LLM-LD defines standardized file formats, discovery mechanisms, and conformance levels so that any AI system can understand a website from a single index file.\n\n AI Discovery Page (ADP 1.0)\n\n This page itself follows the **ADP specification** — a companion standard to LLM-LD that defines how websites publish a discovery hub linking humans and machines to their AI layer.\n\n ## Primary Site\n\n [www.capxel.com](https://www.capxel.com/)\n\n Last updated: 2026-02-14",
+      "summary": "## CAPXEL — AI Discovery\n\n This page provides discovery links to CAPXEL’s machine-readable AI layer. It is intended for AI crawlers, agents, and developers.",
+      "topics": [
+        "discovery",
+        "capxel",
+        "application",
+        "llm-ld",
+        "page",
+        "standard",
+        "com",
+        "data"
+      ],
+      "entities": [
+        {
+          "name": "Discovery\n\n This",
+          "type": "person"
+        },
+        {
+          "name": "Optimized",
+          "type": "unknown"
+        },
+        {
+          "name": "Resources",
+          "type": "unknown"
+        },
+        {
+          "name": "Complete",
+          "type": "unknown"
+        },
+        {
+          "name": "Plain",
+          "type": "unknown"
+        },
+        {
+          "name": "Full",
+          "type": "unknown"
+        },
+        {
+          "name": "Structured",
+          "type": "unknown"
+        },
+        {
+          "name": "Entity",
+          "type": "unknown"
+        },
+        {
+          "name": "Verification\n\n Pending\n\n Onboarding",
+          "type": "person"
+        },
+        {
+          "name": "Disco Directory",
+          "type": "person"
+        },
+        {
+          "name": "Conformance",
+          "type": "unknown"
+        },
+        {
+          "name": "Agent",
+          "type": "unknown"
+        },
+        {
+          "name": "Ready",
+          "type": "unknown"
+        },
+        {
+          "name": "Level",
+          "type": "unknown"
+        },
+        {
+          "name": "About This Standard",
+          "type": "person"
+        }
+      ],
+      "relationships": [],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/ai-discovery.html",
+        "relativeOutputPath": "capxel.com/ai-discovery",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 241,
+        "language": null,
+        "author": null,
+        "publishedAt": null,
+        "lastModified": "2026-03-15T19:54:01.000Z",
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    },
+    {
+      "id": "43e1b1f74073",
+      "title": "Free AI Readability Test | CAPXEL",
+      "url": "https://capxel.com/aso/test",
+      "content": "CAPXEL ASO DiagnosticsCan AI Find Your Business?Most websites are invisible to AI agents, voice assistants, and AI-powered search. Find out where you stand in 60 seconds — free.White-glove data consultancy. We build the structured layer so agents can read, verify, and recommend your brand.",
+      "summary": "CAPXEL ASO DiagnosticsCan AI Find Your Business?Most websites are invisible to AI agents, voice assistants, and AI-powered search. Find out where you stand in 60 seconds — free.White-glove data consultancy.",
+      "topics": [
+        "agents",
+        "capxel",
+        "find",
+        "free",
+        "ai-powered",
+        "aso",
+        "assistants",
+        "brand"
+      ],
+      "entities": [
+        {
+          "name": "Find Your Business",
+          "type": "person"
+        },
+        {
+          "name": "Find",
+          "type": "unknown"
+        },
+        {
+          "name": "White",
+          "type": "unknown"
+        },
+        {
+          "name": "agents",
+          "type": "topic"
+        },
+        {
+          "name": "capxel",
+          "type": "topic"
+        },
+        {
+          "name": "find",
+          "type": "topic"
+        },
+        {
+          "name": "free",
+          "type": "topic"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "links_to",
+          "target": "3f0b3c629f05",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "b45d635f2f68",
+          "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "937d412727c4",
+          "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "84b6bedb91b1",
+          "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2c976d753868",
+          "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "0c624f1d1f26",
+          "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "2dd2eaeb4f5a",
+          "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "ff8887e5e2e0",
+          "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "f9051f6e39bb",
+          "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "57bf96caae9d",
+          "targetTitle": "CAPXEL for Sales | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "034c18dd871a",
+          "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b48ad513c9fa",
+          "targetTitle": "About CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "517de22f0d3f",
+          "targetTitle": "Press | Capxel | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "5c630c6127aa",
+          "targetTitle": "The Capxel Blog"
+        },
+        {
+          "type": "links_to",
+          "target": "6600734aad8f",
+          "targetTitle": "Data Security | CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "c9af424ce497",
+          "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "b28262d9412a",
+          "targetTitle": "Contact CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "637aefba6f7e",
+          "targetTitle": "Apply to CAPXEL | CAPXEL"
+        },
+        {
+          "type": "links_to",
+          "target": "9ab3ba6903f8",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "8fdf97c05ed3",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "583c8c3ee4cf",
+          "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+        },
+        {
+          "type": "links_to",
+          "target": "a3a06727cc38",
+          "targetTitle": "CAPXEL — AI Discovery"
+        }
+      ],
+      "metadata": {
+        "sourceType": "crawl",
+        "canonicalSource": "https://capxel.com/aso/test",
+        "relativeOutputPath": "capxel.com/aso/test",
+        "contentType": "text/html; charset=utf-8",
+        "statusCode": 200,
+        "wordCount": 44,
+        "language": "en",
+        "author": null,
+        "publishedAt": null,
+        "lastModified": null,
+        "generatedAt": "2026-03-16T21:30:40.515Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "id": "8fdf97c05ed3",
+  "title": "CAPXEL — AI-Native Consumer Intelligence",
+  "url": "https://capxel.com/terms",
+  "content": "CAPXEL Terms of ServiceUpdated October 1, 2024These Terms of Service (\"Terms\") govern access to and use of CAPXEL's websites, products, software, analytics, AI-enabled tools, tracking tags, and related services (collectively, the \"Services\"). By accessing or using the Services, you agree to these Terms. If you are using the Services on behalf of an organization, you represent and warrant that you are authorized to bind that organization.Table of ContentsPart 1: General Terms of ServicePart 2: CAPXEL Terms of Service (ToS) — Effective 1 Oct 2024Part 1: General Terms of Service1. Acceptance of TermsBy using the Services, you agree to comply with these Terms and all applicable laws and regulations. If you do not agree, do not use the Services.2. Services DescriptionCAPXEL provides data intelligence and marketing enablement services, including AI-enabled tools and products, analytics, identity resolution, enrichment, and tracking tags or scripts that may be placed on client properties to support measurement and related functionality. Services may change over time.3. User AccountsSome Services require an account. You are responsible for maintaining the confidentiality of account credentials and for all activity under your account. You must promptly notify CAPXEL of any unauthorized use or security incident.4. Payment TermsFees may be subscription-based or one-time, and are as set forth in a signed order form, statement of work, master services agreement, or other written agreement with CAPXEL. Access to paid Services may require execution of a signed agreement.5. Use of ServicesYou agree to use the Services only for lawful purposes and in accordance with these Terms. You will not:Use the Services to violate any law, regulation, or third-party rights.Use the Services to develop, train, or improve any AI or machine learning model, except as expressly authorized in writing by CAPXEL.Introduce malicious code, malware, or attempt to disrupt the Services.Attempt to gain unauthorized access to systems, accounts, or data.Reverse engineer, decompile, or attempt to extract source code except to the extent permitted by law.6. Data Handling and PrivacyCAPXEL's processing of information is described in our Privacy Policy. Where CAPXEL provides AI-enabled features, CAPXEL intends to anonymize or de-identify personal information before using it within AI workflows, where feasible and appropriate for the feature.7. Intellectual PropertyCAPXEL and its licensors own the Services, including all software, technology, documentation, and CAPXEL data and deliverables unless otherwise stated in a signed agreement. Subject to these Terms and payment of applicable fees, CAPXEL grants you a limited, non-exclusive, non-transferable license to use the Services for your internal business purposes.8. User ResponsibilitiesYou are responsible for your use of the Services, for ensuring your Authorized Users comply with these Terms, and for obtaining all necessary rights, permissions, and consents for data you provide to CAPXEL.9. TerminationCAPXEL may suspend or terminate access to the Services if you breach these Terms, if required by law, or to protect the security and integrity of the Services. Termination does not relieve payment obligations incurred prior to termination.10. Dispute ResolutionAny dispute arising from or relating to these Terms or the Services will be resolved by binding arbitration administered by the American Arbitration Association (AAA) in Florida, unless otherwise required by law. You and CAPXEL waive the right to a jury trial.11. Governing LawThese Terms are governed by the laws of the State of Florida, without regard to conflict of laws principles.12. Changes to TermsWe may update these Terms from time to time. If we make material changes, we will post the updated Terms and update the effective date. Continued use of the Services after the change becomes effective constitutes acceptance.13. Contact InformationQuestions about these Terms can be sent to legal@capxel.com.Part 2: CAPXEL Terms of Service (ToS) — Effective 1 Oct 2024This Part 2 contains additional, MSA-style terms that may apply when a customer enters into a signed agreement with CAPXEL (such as an order form, statement of work, or master services agreement). In the event of a conflict, the signed agreement controls.DefinitionsThe following definitions apply for purposes of these ToS, unless otherwise defined in a signed agreement:\"AI Services\" means any CAPXEL-provided features that use machine learning, large language models, automated decisioning, or similar techniques to generate outputs, recommendations, classifications, or insights.\"Authorized User\" means an individual authorized by Client to access the CAPXEL Platform under Client's account.\"BACKTRAX Data\" means data products, datasets, signals, identifiers, segments, or other data assets branded or designated as BACKTRAX.\"CAPXEL Data\" means data provided by CAPXEL (including BACKTRAX Data) and any derived or aggregated data generated by CAPXEL in providing the Services, excluding Client Data.\"CAPXEL Platform\" means the CAPXEL-hosted platform(s), dashboards, APIs, connectors, scripts, and related tooling through which the Services are delivered.\"CAPXEL Services\" means the services and products provided by CAPXEL, including Data Services, AI Services, implementation, support, and professional services.\"CAPXEL Technology\" means CAPXEL's software, models, methodologies, trade secrets, know-how, interfaces, and other technology used to provide the CAPXEL Services.\"Client Data\" means data submitted to CAPXEL by or on behalf of Client (including through tags, APIs, uploads, or integrations), including event data and first-party data.\"Client Materials\" means Client-provided content, brand assets, copy, creative, specifications, and other materials provided for use with the Services.\"Client Properties\" means websites, apps, domains, and other digital properties controlled by Client where CAPXEL tags, scripts, SDKs, or integrations may be deployed.\"Data Services\" means identity resolution, enrichment, analytics, audience segmentation, measurement, and related data processing services provided by CAPXEL.\"Deliverables\" means the outputs provided to Client under an order form or statement of work, such as reports, exports, models, segments, mappings, or configurations.\"Documentation\" means CAPXEL's user guides, API docs, specifications, and other written materials describing the Services.\"INSPEX\", \"LANDMARX\", and \"SPYBOX\"mean CAPXEL-branded products, modules, or offerings identified by those names, as described in applicable Documentation or order forms.Scope of ServicesCAPXEL will provide the CAPXEL Services as described in the applicable order form, statement of work, or Documentation. Client is responsible for configuration choices and for ensuring use is compliant with law.Client ResponsibilitiesProvide accurate information, timely access, and cooperation as reasonably needed.Deploy tags/scripts only on Client Properties where Client has authority to do so.Maintain required notices, consents, and opt-out mechanisms for end users where applicable.Ensure Client Data is collected and shared with CAPXEL lawfully.Data HandlingCAPXEL may process Client Data to provide the Services and to maintain and improve CAPXEL Technology, subject to contract restrictions. Where feasible for AI features, CAPXEL intends to anonymize or de-identify personal information before AI processing.Intellectual Property & LicenseClient retains ownership of Client Data and Client Materials. CAPXEL retains ownership of CAPXEL Technology, CAPXEL Data, and any general-purpose improvements, methods, or learnings. Subject to the agreement and payment of fees, CAPXEL grants Client a limited, non-exclusive, non-transferable license to use the CAPXEL Services and Deliverables for Client's internal business purposes.ConfidentialityEach party may receive Confidential Information from the other. Each party will protect the other's Confidential Information using reasonable care and will use it only to perform under the agreement. Confidential Information does not include information that is publicly available through no fault of the receiving party.Warranties & DisclaimersExcept as expressly stated in a signed agreement, the Services are provided \"as is\" and \"as available\". CAPXEL disclaims all implied warranties to the maximum extent permitted by law, including merchantability, fitness for a particular purpose, and non-infringement. Data and AI outputs may be probabilistic and may contain errors.Limitation of LiabilityTo the maximum extent permitted by law, CAPXEL will not be liable for indirect, incidental, special, consequential, or punitive damages, or for loss of profits, revenue, data, or goodwill. CAPXEL's total liability will be limited as set forth in the signed agreement or, if not specified, to the amounts paid by Client for the Services giving rise to the claim during the 12 months preceding the event.TerminationEither party may terminate as set forth in the signed agreement. Upon termination, Client's right to use the Services ends, and Client must stop using the Services and delete or return CAPXEL Confidential Information as required.Order of PrecedenceIf there is a conflict between these Terms and an executed order form or MSA, the executed agreement controls for the relevant Services.ContactFor legal inquiries: legal@capxel.com.",
+  "summary": "CAPXEL Terms of ServiceUpdated October 1, 2024These Terms of Service (\"Terms\") govern access to and use of CAPXEL's websites, products, software, analytics, AI-enabled tools, tracking tags, and related services (collectively, the \"Services\"). By accessing or using the Services, you agree to these Terms.",
+  "topics": [
+    "services",
+    "capxel",
+    "data",
+    "client",
+    "terms",
+    "agreement",
+    "means",
+    "information"
+  ],
+  "entities": [
+    {
+      "name": "Terms",
+      "type": "unknown"
+    },
+    {
+      "name": "October",
+      "type": "unknown"
+    },
+    {
+      "name": "Service",
+      "type": "unknown"
+    },
+    {
+      "name": "Services",
+      "type": "unknown"
+    },
+    {
+      "name": "Table",
+      "type": "unknown"
+    },
+    {
+      "name": "General Terms",
+      "type": "person"
+    },
+    {
+      "name": "Effective",
+      "type": "unknown"
+    },
+    {
+      "name": "Oct",
+      "type": "unknown"
+    },
+    {
+      "name": "Acceptance",
+      "type": "unknown"
+    },
+    {
+      "name": "User",
+      "type": "unknown"
+    },
+    {
+      "name": "Payment",
+      "type": "unknown"
+    },
+    {
+      "name": "Access",
+      "type": "unknown"
+    },
+    {
+      "name": "Introduce",
+      "type": "unknown"
+    },
+    {
+      "name": "Attempt",
+      "type": "unknown"
+    },
+    {
+      "name": "Reverse",
+      "type": "unknown"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "links_to",
+      "target": "3f0b3c629f05",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "b45d635f2f68",
+      "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "937d412727c4",
+      "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "84b6bedb91b1",
+      "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "2c976d753868",
+      "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "0c624f1d1f26",
+      "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "2dd2eaeb4f5a",
+      "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "ff8887e5e2e0",
+      "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "f9051f6e39bb",
+      "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "57bf96caae9d",
+      "targetTitle": "CAPXEL for Sales | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "034c18dd871a",
+      "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "b48ad513c9fa",
+      "targetTitle": "About CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "517de22f0d3f",
+      "targetTitle": "Press | Capxel | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "5c630c6127aa",
+      "targetTitle": "The Capxel Blog"
+    },
+    {
+      "type": "links_to",
+      "target": "6600734aad8f",
+      "targetTitle": "Data Security | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "c9af424ce497",
+      "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "b28262d9412a",
+      "targetTitle": "Contact CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "637aefba6f7e",
+      "targetTitle": "Apply to CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "9ab3ba6903f8",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "8fdf97c05ed3",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "583c8c3ee4cf",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "a3a06727cc38",
+      "targetTitle": "CAPXEL — AI Discovery"
+    }
+  ],
+  "metadata": {
+    "sourceType": "crawl",
+    "canonicalSource": "https://capxel.com/terms",
+    "relativeOutputPath": "capxel.com/terms",
+    "contentType": "text/html; charset=utf-8",
+    "statusCode": 200,
+    "wordCount": 1327,
+    "language": "en",
+    "author": null,
+    "publishedAt": null,
+    "lastModified": null,
+    "generatedAt": "2026-03-16T21:30:40.515Z"
+  }
+}
