@@ -1,0 +1,4 @@
+node_modules/
+brain-drain-output/
+*.log
+.DS_Store

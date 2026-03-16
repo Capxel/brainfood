@@ -1,0 +1,60 @@
+{
+  "name": "brain-drain",
+  "version": "1.0.0",
+  "description": "Capxel's CLI for turning websites, sitemaps, and local docs into AI-readable knowledge graphs.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Capxel",
+  "homepage": "https://github.com/Capxel/brain-drain#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Capxel/brain-drain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Capxel/brain-drain/issues"
+  },
+  "keywords": [
+    "capxel",
+    "cli",
+    "crawler",
+    "knowledge-graph",
+    "llm",
+    "llm-ld",
+    "markdown",
+    "sitemap",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "brain-drain": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "crawl": "tsx src/index.ts crawl",
+    "local": "tsx src/index.ts local",
+    "sitemap": "tsx src/index.ts sitemap",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "cheerio": "^1.1.2",
+    "commander": "^14.0.1",
+    "jsdom": "^26.1.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
