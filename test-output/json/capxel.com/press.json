@@ -1,0 +1,204 @@
+{
+  "id": "517de22f0d3f",
+  "title": "Press | Capxel | CAPXEL",
+  "url": "https://capxel.com/press",
+  "content": "NewsroomPress ReleasesOfficial announcements from Capxel — the intelligence layer between brands and AI.Media inquiries: curious@capxel.comFebruary 2026TAMPA BAY, FLCapxel Launches LLM-LD, the First Open Standard for Making Websites Readable by AI AgentsNew specification gives brands a structured framework to surface in AI-powered search, recommendation engines, and autonomous agentsCapxel, the AI-native data company helping enterprises expand through intelligence-driven products, today announced the general availability of LLM-LD (Large Language Model Linked Data) — the first open standard designed to make website content natively readable by AI systems, retrieval pipelines, and autonomous agents.LLM-LD defines standardized file formats, discovery mechanisms, and conformance levels that allow any AI system to understand a website's complete content from a single index file. The specification is available under a Creative Commons BY 4.0 license at llmld.org.“JSON-LD solved machine readability for search engines. LLM-LD solves it for AI. Every major AI system — ChatGPT, Gemini, Perplexity, Claude — retrieves and synthesizes web content differently than traditional search crawlers. There was no standard for how websites should present themselves to these systems. Now there is.”“We're seeing a shift in how forward-thinking brands approach their digital presence. The companies that structure their content for AI agents today will be the ones those agents recommend tomorrow. LLM-LD gives every brand — regardless of size or technical capability — a clear path to get there.”As AI agents increasingly mediate how consumers discover products, services, and information, brands face a new visibility challenge. Recent industry research found that fewer than 1.2% of brand locations receive direct recommendations from leading AI assistants — not because the businesses lack quality, but because their content isn't structured for AI consumption.LLM-LD addresses this with a standardized index file, structured entity data, knowledge graphs, product feeds, an AI Discovery Page specification, and three conformance levels from basic discoverability to full agent-readiness.Since its launch, LLM-LD has seen rapid adoption across multiple industries including healthcare, luxury retail, professional services, and e-commerce. The companion LLM Disco Network (llmdisco.com) has attracted implementation partners across the agency ecosystem.LLM-LD is free and open. Any developer, agency, or platform can implement it without licensing fees or vendor lock-in. Capxel provides enterprise-grade implementation services for brands requiring managed deployment, ongoing optimization, and performance analytics.February 2026TAMPA BAY, FLAs AI Agents Replace Search Engines, Capxel Introduces AI Search Optimization — A New Category of Brand IntelligenceCapxel's ASO framework helps enterprises become discoverable, recommended, and cited by AI systems — before competitors realize the landscape has shiftedCapxel, the AI-native data company helping enterprises expand through intelligence-driven products, today introduced AI Search Optimization (ASO) as a defined commercial discipline — a new category of brand intelligence designed to make enterprises visible to AI agents, recommendation engines, and retrieval systems that are rapidly displacing traditional search.While the digital marketing industry remains focused on optimizing for Google's 10 blue links, a fundamental shift is underway. Consumers are increasingly turning to AI assistants — ChatGPT, Gemini, Perplexity, Claude — for purchasing decisions, service recommendations, and information discovery. These systems don't crawl and rank pages. They retrieve, synthesize, and recommend. And the vast majority of brands are invisible to them.“Every company has an SEO strategy. Almost none have an ASO strategy. The brands that show up when an AI agent answers 'What's the best product for my use case?' will capture the next decade of consumer attention. The ones that don't will wonder where their traffic went.”“This isn't a future problem. It's a current blind spot. The infrastructure to make brands readable by AI systems exists today. Most companies simply don't know it's available — or that they need it.”Industry data tells a stark story. SOCi's 2026 Local Visibility Index — the most comprehensive benchmark of multi-location brand performance, covering 350,000+ locations and 2,751 brands — added AI visibility as a core metric for the first time this year. Their findings: the gap between brands optimized for AI and those that aren't is already significant and accelerating.Capxel's ASO implementation includes structured AI layers built on the open LLM-LD standard (llmld.org), machine-readable knowledge architectures, ongoing intelligence and analytics, and white-label deployment through a growing network of agency partners.Capxel positions ASO not as a feature or add-on, but as an entirely new category of digital infrastructure — one that sits alongside SEO, paid media, and CRM as a core component of enterprise marketing architecture.“We didn't build a tool. We solved a problem no one else was addressing. Three years from now, every enterprise will have an ASO strategy the same way they have an SEO strategy today. The question is who gets there first.”About CapxelCapxel is an AI-native data company helping enterprises expand through intelligence-driven products. Founded in Tampa Bay, Florida, Capxel provides enterprise data solutions including AI Search Optimization (ASO), behavioral intelligence, identity resolution, and consumer enrichment across 260M+ profiles. Learn more at capxel.com.LLM-LD and the LLM-LD specification are released under Creative Commons Attribution 4.0 International License (CC BY 4.0).",
+  "summary": "NewsroomPress ReleasesOfficial announcements from Capxel — the intelligence layer between brands and AI.Media inquiries: curious@capxel.comFebruary 2026TAMPA BAY, FLCapxel Launches LLM-LD, the First Open Standard for Making Websites Readable by AI AgentsNew specification gives brands a structured framework to surface i",
+  "topics": [
+    "llm-ld",
+    "brands",
+    "capxel",
+    "search",
+    "aso",
+    "data",
+    "agents",
+    "systems"
+  ],
+  "entities": [
+    {
+      "name": "Capxel",
+      "type": "unknown"
+    },
+    {
+      "name": "Media",
+      "type": "unknown"
+    },
+    {
+      "name": "Launches",
+      "type": "unknown"
+    },
+    {
+      "name": "First Open Standard",
+      "type": "person"
+    },
+    {
+      "name": "Making Websites Readable",
+      "type": "person"
+    },
+    {
+      "name": "Large Language Model Linked",
+      "type": "person"
+    },
+    {
+      "name": "Data",
+      "type": "unknown"
+    },
+    {
+      "name": "Creative Commons",
+      "type": "person"
+    },
+    {
+      "name": "Every",
+      "type": "unknown"
+    },
+    {
+      "name": "Gemini",
+      "type": "unknown"
+    },
+    {
+      "name": "Perplexity",
+      "type": "unknown"
+    },
+    {
+      "name": "Claude",
+      "type": "unknown"
+    },
+    {
+      "name": "Now",
+      "type": "unknown"
+    },
+    {
+      "name": "Recent",
+      "type": "unknown"
+    },
+    {
+      "name": "Discovery Page",
+      "type": "person"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "links_to",
+      "target": "3f0b3c629f05",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "b45d635f2f68",
+      "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "937d412727c4",
+      "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "84b6bedb91b1",
+      "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "2c976d753868",
+      "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "0c624f1d1f26",
+      "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "2dd2eaeb4f5a",
+      "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "ff8887e5e2e0",
+      "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "f9051f6e39bb",
+      "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "57bf96caae9d",
+      "targetTitle": "CAPXEL for Sales | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "034c18dd871a",
+      "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "b48ad513c9fa",
+      "targetTitle": "About CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "517de22f0d3f",
+      "targetTitle": "Press | Capxel | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "5c630c6127aa",
+      "targetTitle": "The Capxel Blog"
+    },
+    {
+      "type": "links_to",
+      "target": "6600734aad8f",
+      "targetTitle": "Data Security | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "c9af424ce497",
+      "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "b28262d9412a",
+      "targetTitle": "Contact CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "637aefba6f7e",
+      "targetTitle": "Apply to CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "9ab3ba6903f8",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "8fdf97c05ed3",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "583c8c3ee4cf",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "a3a06727cc38",
+      "targetTitle": "CAPXEL — AI Discovery"
+    }
+  ],
+  "metadata": {
+    "sourceType": "crawl",
+    "canonicalSource": "https://capxel.com/press",
+    "relativeOutputPath": "capxel.com/press",
+    "contentType": "text/html; charset=utf-8",
+    "statusCode": 200,
+    "wordCount": 813,
+    "language": "en",
+    "author": null,
+    "publishedAt": null,
+    "lastModified": null,
+    "generatedAt": "2026-03-16T21:30:40.515Z"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "id": "84b6bedb91b1",
+  "title": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL",
+  "url": "https://capxel.com/inspex",
+  "content": "CAPXEL — AI-Native Consumer IntelligenceUnderstand Your Buyers at a Level Your Competitors Can'tDeep behavioral intelligence blueprints from your highest-value customers. Powered by 260M+ consumer profiles.Request an INSPEX ReportExplore SPYBOXThe iceberg is real: most signal is hidden beneath the surface.What INSPEX DoesNot Just Segmentation — Full Behavioral BlueprintsINSPEX analyzes your customers to uncover patterns, commonalities, and ideal avatars — then translates those findings into intelligence your marketing team can execute.White-glove intelligence, delivered as a reportCAPXEL is a data consultancy. We empower your team with clarity — we don’t run your campaigns. We provide the blueprint so execution becomes obvious.CapabilitiesIntelligence you can put to work immediately.Segment DiscoveryIdentify natural clusters inside your customer base — beyond surface-level demographics.Avatar IsolationPinpoint the traits of your highest-value customers and the conditions that predict conversion.Behavioral PatternsReveal what buyers do, not what they say: interests, affinities, signals, and propensity indicators.Actionable IntelligenceDeliver recommendations your marketing team can execute — positioning, channel strategy, and audience criteria.The INSPEX ReportA premium deliverable designed for decision-making: clear segments, clear avatars, clear actions.Audience SegmentsDetailed breakdown of distinct customer segments and the traits that define them.Commonality AnalysisThe shared factors behind your highest-value cohort — the levers that predict value and conversion.Ideal Customer ProfilesClear buyer avatars your team can align on — including acquisition criteria.Marketing RecommendationsPositioning and channel insights that translate intelligence into performance.Works WithINSPEX is the intelligence engine across the CAPXEL product suite.SPYBOXCapture identities â†’ analyze what converts.Explore SPYBOXBuyer Ambition DataAnalyze â†’ target active buyers.Explore Buyer Ambition DataPROSPEXAnalyze â†’ find more of your exact people.Explore PROSPEXPremium Customer IntelligenceWant the Blueprint of Who Really Buys?Send us your highest-value cohort. We’ll return an INSPEX Report your team can execute.Request an INSPEX ReportScale With PROSPEXFAQCommon questions about INSPEX.What is INSPEX?Is INSPEX just segmentation?What data do you need from us?What do I receive in an INSPEX Report?What does INSPEX work best with?",
+  "summary": "CAPXEL — AI-Native Consumer IntelligenceUnderstand Your Buyers at a Level Your Competitors Can'tDeep behavioral intelligence blueprints from your highest-value customers. Powered by 260M+ consumer profiles.Request an INSPEX ReportExplore SPYBOXThe iceberg is real: most signal is hidden beneath the surface.What INSPEX D",
+  "topics": [
+    "inspex",
+    "intelligence",
+    "customer",
+    "team",
+    "capxel",
+    "highest-value",
+    "avatars",
+    "behavioral"
+  ],
+  "entities": [
+    {
+      "name": "Native Consumer",
+      "type": "person"
+    },
+    {
+      "name": "Your Buyers",
+      "type": "person"
+    },
+    {
+      "name": "Level Your Competitors Can",
+      "type": "person"
+    },
+    {
+      "name": "Powered",
+      "type": "unknown"
+    },
+    {
+      "name": "Request",
+      "type": "unknown"
+    },
+    {
+      "name": "Just Segmentation",
+      "type": "person"
+    },
+    {
+      "name": "Full Behavioral",
+      "type": "person"
+    },
+    {
+      "name": "White",
+      "type": "unknown"
+    },
+    {
+      "name": "Segment",
+      "type": "unknown"
+    },
+    {
+      "name": "Avatar",
+      "type": "unknown"
+    },
+    {
+      "name": "Behavioral",
+      "type": "unknown"
+    },
+    {
+      "name": "Actionable",
+      "type": "unknown"
+    },
+    {
+      "name": "Audience",
+      "type": "unknown"
+    },
+    {
+      "name": "Commonality",
+      "type": "unknown"
+    },
+    {
+      "name": "Ideal Customer",
+      "type": "person"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "links_to",
+      "target": "3f0b3c629f05",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "b45d635f2f68",
+      "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "937d412727c4",
+      "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "84b6bedb91b1",
+      "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "2c976d753868",
+      "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "0c624f1d1f26",
+      "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "2dd2eaeb4f5a",
+      "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "ff8887e5e2e0",
+      "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "f9051f6e39bb",
+      "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "57bf96caae9d",
+      "targetTitle": "CAPXEL for Sales | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "034c18dd871a",
+      "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "b48ad513c9fa",
+      "targetTitle": "About CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "517de22f0d3f",
+      "targetTitle": "Press | Capxel | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "5c630c6127aa",
+      "targetTitle": "The Capxel Blog"
+    },
+    {
+      "type": "links_to",
+      "target": "6600734aad8f",
+      "targetTitle": "Data Security | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "c9af424ce497",
+      "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "b28262d9412a",
+      "targetTitle": "Contact CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "637aefba6f7e",
+      "targetTitle": "Apply to CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "9ab3ba6903f8",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "8fdf97c05ed3",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "583c8c3ee4cf",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "a3a06727cc38",
+      "targetTitle": "CAPXEL — AI Discovery"
+    }
+  ],
+  "metadata": {
+    "sourceType": "crawl",
+    "canonicalSource": "https://capxel.com/inspex",
+    "relativeOutputPath": "capxel.com/inspex",
+    "contentType": "text/html; charset=utf-8",
+    "statusCode": 200,
+    "wordCount": 303,
+    "language": "en",
+    "author": null,
+    "publishedAt": null,
+    "lastModified": null,
+    "generatedAt": "2026-03-16T21:30:40.515Z"
+  }
+}

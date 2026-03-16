@@ -1,0 +1,93 @@
+{
+  "id": "a3a06727cc38",
+  "title": "CAPXEL — AI Discovery",
+  "url": "https://capxel.com/ai-discovery.html",
+  "content": "## CAPXEL — AI Discovery\n\n This page provides discovery links to CAPXEL’s machine-readable AI layer. It is intended for AI crawlers, agents, and developers.\n\n If you followed a footer link to get here — this is the index behind the AI-Optimized badge. It helps AI systems find and understand public content. No private data, credentials, or restricted endpoints are exposed.\n\n ## Resources\n\n 1. Complete site-wide machine-readable index application/json\n2. Plain-text summary and link manifest text/plain\n3. Full URL listing for AI-layer pages application/xml\n4. Structured entity data application/json\n5. Entity relationships and contextual links application/json\n\n ## Verification\n\n Pending\n\n Onboarding to the [LLM Disco Directory](https://llmdisco.com/directory). Conformance: Agent-Ready (Level 3).\n\n ## About This Standard\n\n AI Search Optimization (ASO)\n\n ASO is the practice of structuring public website content so it can be reliably discovered, understood, and cited by AI systems, retrieval pipelines, and autonomous agents. This page is part of that practice.\n\n LLM-LD 1.0 — Open Standard\n\n This AI layer is built on **LLM-LD** (Large Language Model Linked Data) — an open standard for making websites machine-readable to AI. LLM-LD defines standardized file formats, discovery mechanisms, and conformance levels so that any AI system can understand a website from a single index file.\n\n AI Discovery Page (ADP 1.0)\n\n This page itself follows the **ADP specification** — a companion standard to LLM-LD that defines how websites publish a discovery hub linking humans and machines to their AI layer.\n\n ## Primary Site\n\n [www.capxel.com](https://www.capxel.com/)\n\n Last updated: 2026-02-14",
+  "summary": "## CAPXEL — AI Discovery\n\n This page provides discovery links to CAPXEL’s machine-readable AI layer. It is intended for AI crawlers, agents, and developers.",
+  "topics": [
+    "discovery",
+    "capxel",
+    "application",
+    "llm-ld",
+    "page",
+    "standard",
+    "com",
+    "data"
+  ],
+  "entities": [
+    {
+      "name": "Discovery\n\n This",
+      "type": "person"
+    },
+    {
+      "name": "Optimized",
+      "type": "unknown"
+    },
+    {
+      "name": "Resources",
+      "type": "unknown"
+    },
+    {
+      "name": "Complete",
+      "type": "unknown"
+    },
+    {
+      "name": "Plain",
+      "type": "unknown"
+    },
+    {
+      "name": "Full",
+      "type": "unknown"
+    },
+    {
+      "name": "Structured",
+      "type": "unknown"
+    },
+    {
+      "name": "Entity",
+      "type": "unknown"
+    },
+    {
+      "name": "Verification\n\n Pending\n\n Onboarding",
+      "type": "person"
+    },
+    {
+      "name": "Disco Directory",
+      "type": "person"
+    },
+    {
+      "name": "Conformance",
+      "type": "unknown"
+    },
+    {
+      "name": "Agent",
+      "type": "unknown"
+    },
+    {
+      "name": "Ready",
+      "type": "unknown"
+    },
+    {
+      "name": "Level",
+      "type": "unknown"
+    },
+    {
+      "name": "About This Standard",
+      "type": "person"
+    }
+  ],
+  "relationships": [],
+  "metadata": {
+    "sourceType": "crawl",
+    "canonicalSource": "https://capxel.com/ai-discovery.html",
+    "relativeOutputPath": "capxel.com/ai-discovery",
+    "contentType": "text/html; charset=utf-8",
+    "statusCode": 200,
+    "wordCount": 241,
+    "language": null,
+    "author": null,
+    "publishedAt": null,
+    "lastModified": "2026-03-15T19:54:01.000Z",
+    "generatedAt": "2026-03-16T21:30:40.515Z"
+  }
+}

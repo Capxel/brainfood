@@ -1,0 +1,192 @@
+{
+  "id": "6600734aad8f",
+  "title": "Data Security | CAPXEL | CAPXEL",
+  "url": "https://capxel.com/security",
+  "content": "CAPXEL — AI-Native Consumer IntelligenceYour Data. Fort Knox.We go above and beyond industry standards. Because when you handle 260M+ identities, security isn't optional — it's foundational.Talk to Our TeamExplore ProductsThe iceberg is real: most signal is hidden beneath the surface.Security PracticesBuilt like infrastructureCAPXEL is a white-glove data consultancy. We protect what we handle with the assumption that security is not a feature — it's the foundation.AES-256 EncryptionMilitary/bank-grade encryption for data at rest and in transit.Secure TransfersEnd-to-end encryption + cryptographic splitting + one-time passwords + self-destructive links.AI AnonymizationAll PII is fully anonymized before any AI processing — protecting sensitive information by design.Internal ProtocolsSecurity-trained staff, access limitations, and strict controls across the delivery lifecycle.Our CommitmentSecurity is core infrastructure — not an add-onWe designed CAPXEL to handle sensitive identity intelligence responsibly. From encryption to access control, every layer is built to minimize risk and maximize accountability.Security-first by designFrom anonymization before AI processing to secure transfer workflows, CAPXEL treats security like critical infrastructure.Ask a questionCAPXEL SecurityQuestionsQuestions about our security practices?We'll walk you through how we protect data across encryption, transfers, anonymization, and internal controls.Talk to Our TeamView Security OverviewFAQSecurity questions we answer most often.Do you encrypt data at rest and in transit?How do you deliver files securely?Does AI ever see raw PII?Who can access customer data internally?",
+  "summary": "CAPXEL — AI-Native Consumer IntelligenceYour Data. Fort Knox.We go above and beyond industry standards.",
+  "topics": [
+    "data",
+    "security",
+    "capxel",
+    "encryption",
+    "access",
+    "handle",
+    "across",
+    "anonymization"
+  ],
+  "entities": [
+    {
+      "name": "Native Consumer",
+      "type": "person"
+    },
+    {
+      "name": "Data",
+      "type": "unknown"
+    },
+    {
+      "name": "Fort Knox.",
+      "type": "person"
+    },
+    {
+      "name": "Talk",
+      "type": "unknown"
+    },
+    {
+      "name": "Security",
+      "type": "unknown"
+    },
+    {
+      "name": "Secure",
+      "type": "unknown"
+    },
+    {
+      "name": "Internal",
+      "type": "unknown"
+    },
+    {
+      "name": "Ask",
+      "type": "unknown"
+    },
+    {
+      "name": "data",
+      "type": "topic"
+    },
+    {
+      "name": "security",
+      "type": "topic"
+    },
+    {
+      "name": "capxel",
+      "type": "topic"
+    },
+    {
+      "name": "encryption",
+      "type": "topic"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "links_to",
+      "target": "3f0b3c629f05",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "b45d635f2f68",
+      "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "937d412727c4",
+      "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "84b6bedb91b1",
+      "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "2c976d753868",
+      "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "0c624f1d1f26",
+      "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "2dd2eaeb4f5a",
+      "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "ff8887e5e2e0",
+      "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "f9051f6e39bb",
+      "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "57bf96caae9d",
+      "targetTitle": "CAPXEL for Sales | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "034c18dd871a",
+      "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "b48ad513c9fa",
+      "targetTitle": "About CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "517de22f0d3f",
+      "targetTitle": "Press | Capxel | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "5c630c6127aa",
+      "targetTitle": "The Capxel Blog"
+    },
+    {
+      "type": "links_to",
+      "target": "6600734aad8f",
+      "targetTitle": "Data Security | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "c9af424ce497",
+      "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "b28262d9412a",
+      "targetTitle": "Contact CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "637aefba6f7e",
+      "targetTitle": "Apply to CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "9ab3ba6903f8",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "8fdf97c05ed3",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "583c8c3ee4cf",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "a3a06727cc38",
+      "targetTitle": "CAPXEL — AI Discovery"
+    }
+  ],
+  "metadata": {
+    "sourceType": "crawl",
+    "canonicalSource": "https://capxel.com/security",
+    "relativeOutputPath": "capxel.com/security",
+    "contentType": "text/html; charset=utf-8",
+    "statusCode": 200,
+    "wordCount": 213,
+    "language": "en",
+    "author": null,
+    "publishedAt": null,
+    "lastModified": null,
+    "generatedAt": "2026-03-16T21:30:40.515Z"
+  }
+}

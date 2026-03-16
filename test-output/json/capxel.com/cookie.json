@@ -1,0 +1,196 @@
+{
+  "id": "583c8c3ee4cf",
+  "title": "CAPXEL — AI-Native Consumer Intelligence",
+  "url": "https://capxel.com/cookie",
+  "content": "CAPXEL Cookie PolicyUpdated July 25, 2024This Cookie Policy explains how CAPXEL uses cookies and similar technologies on our corporate website and in connection with certain Services.How do we use cookies?We may use cookies and similar technologies to:Enable core site functionality and security.Remember preferences and improve user experience.Measure traffic and understand engagement.Support communications and campaign measurement using pixels/tags where applicable.Your cookie choicesMost browsers let you control cookies through settings, including the ability to delete cookies or block cookies. If you block cookies, some features of the site may not work properly.GDPR compliance noteWhere required by applicable law (including GDPR), we seek appropriate consent for non-essential cookies and provide relevant information about cookie usage and choices.Contact UsQuestions about this Cookie Policy can be sent to support@capxel.com.",
+  "summary": "CAPXEL Cookie PolicyUpdated July 25, 2024This Cookie Policy explains how CAPXEL uses cookies and similar technologies on our corporate website and in connection with certain Services.How do we use cookies?We may use cookies and similar technologies to:Enable core site functionality and security.Remember preferences and",
+  "topics": [
+    "cookies",
+    "cookie",
+    "capxel",
+    "applicable",
+    "block",
+    "gdpr",
+    "including",
+    "policy"
+  ],
+  "entities": [
+    {
+      "name": "Cookie",
+      "type": "unknown"
+    },
+    {
+      "name": "July",
+      "type": "unknown"
+    },
+    {
+      "name": "Cookie Policy",
+      "type": "person"
+    },
+    {
+      "name": "Services",
+      "type": "unknown"
+    },
+    {
+      "name": "Enable",
+      "type": "unknown"
+    },
+    {
+      "name": "Remember",
+      "type": "unknown"
+    },
+    {
+      "name": "Measure",
+      "type": "unknown"
+    },
+    {
+      "name": "Support",
+      "type": "unknown"
+    },
+    {
+      "name": "Contact",
+      "type": "unknown"
+    },
+    {
+      "name": "cookies",
+      "type": "topic"
+    },
+    {
+      "name": "cookie",
+      "type": "topic"
+    },
+    {
+      "name": "capxel",
+      "type": "topic"
+    },
+    {
+      "name": "applicable",
+      "type": "topic"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "links_to",
+      "target": "3f0b3c629f05",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "b45d635f2f68",
+      "targetTitle": "ASO — Agentic Search Optimization | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "937d412727c4",
+      "targetTitle": "SPYBOX — Identity Capture | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "84b6bedb91b1",
+      "targetTitle": "INSPEX — Customer Intelligence | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "2c976d753868",
+      "targetTitle": "Buyer Ambition Data — Intent Targeting | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "0c624f1d1f26",
+      "targetTitle": "BEACON — AI Crawler Analytics | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "2dd2eaeb4f5a",
+      "targetTitle": "PROSPEX — Elevated Leads | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "ff8887e5e2e0",
+      "targetTitle": "LANDMARX — Geofencing Intelligence | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "f9051f6e39bb",
+      "targetTitle": "CAPXEL for E-Commerce | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "57bf96caae9d",
+      "targetTitle": "CAPXEL for Sales | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "034c18dd871a",
+      "targetTitle": "CAPXEL for SaaS and B2B | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "b48ad513c9fa",
+      "targetTitle": "About CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "517de22f0d3f",
+      "targetTitle": "Press | Capxel | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "5c630c6127aa",
+      "targetTitle": "The Capxel Blog"
+    },
+    {
+      "type": "links_to",
+      "target": "6600734aad8f",
+      "targetTitle": "Data Security | CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "c9af424ce497",
+      "targetTitle": "CAPXEL Security — DOSXIER | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "b28262d9412a",
+      "targetTitle": "Contact CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "637aefba6f7e",
+      "targetTitle": "Apply to CAPXEL | CAPXEL"
+    },
+    {
+      "type": "links_to",
+      "target": "9ab3ba6903f8",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "8fdf97c05ed3",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "583c8c3ee4cf",
+      "targetTitle": "CAPXEL — AI-Native Consumer Intelligence"
+    },
+    {
+      "type": "links_to",
+      "target": "a3a06727cc38",
+      "targetTitle": "CAPXEL — AI Discovery"
+    }
+  ],
+  "metadata": {
+    "sourceType": "crawl",
+    "canonicalSource": "https://capxel.com/cookie",
+    "relativeOutputPath": "capxel.com/cookie",
+    "contentType": "text/html; charset=utf-8",
+    "statusCode": 200,
+    "wordCount": 124,
+    "language": "en",
+    "author": null,
+    "publishedAt": null,
+    "lastModified": null,
+    "generatedAt": "2026-03-16T21:30:40.515Z"
+  }
+}
