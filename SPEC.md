@@ -1,91 +1,102 @@
-# brain-drain — Build Spec
+# brain-drain — Knowledge Base → AI-Readable Structure
 
-A CLI tool that crawls any knowledge source (website, folder, docs) and exports clean, structured, AI-readable output following LLM-LD principles.
+## What It Does
+CLI tool that takes any knowledge source (website, docs folder, Notion export, PDF collection, wiki) and converts it into clean, structured, machine-readable files that AI agents can consume.
+
+## Why It Matters
+AI agents need structured data to make recommendations. Most companies have knowledge scattered across websites, PDFs, Google Docs, wikis. Humans navigate that fine — AI agents can't. brain-drain bridges the gap.
+
+## Strategic Position
+- **Open source** under Capxel GitHub (MIT license)
+- **Gateway drug to full ASO** — companies use brain-drain to see what structured knowledge looks like, then hire Capxel for full LLM-LD deployment
+- **First of 5 skills** in the 10-day release sprint
 
 ## Core Features
 
-1. **CLI interface:** `brain-drain <source> [options]`
-   - `<source>`: URL, local directory path, or sitemap URL
-   - `--output <dir>`: output directory (default: `./brain-drain-output/`)
-   - `--format <json|markdown|jsonld>`: output format (default: `json`)
-   - `--depth <n>`: crawl depth for URLs (default: 2)
-   - `--include <pattern>`: file/URL patterns to include
-   - `--exclude <pattern>`: file/URL patterns to exclude
-   - `--max-pages <n>`: max pages to crawl (default: 100)
+### Input Sources (Phase 1)
+1. **URL crawl** — Point at a website, crawl all pages, extract content
+2. **Local directory** — Point at a folder of markdown/HTML/text files
+3. **Sitemap** — Parse sitemap.xml and crawl listed URLs
 
-2. **Input sources:**
-   - Local directory (recursively processes .md, .txt, .html, .pdf files)
-   - Website URL (crawls up to --depth levels)
-   - Sitemap URL (processes all pages in sitemap)
+### Output Format
+- **LLM-LD compatible JSON** — structured knowledge following LLM-LD principles
+- Each page/document becomes a structured knowledge node with:
+  - `title` — document title
+  - `url` or `source` — origin
+  - `content` — cleaned text (markdown)
+  - `summary` — AI-generated summary (optional, requires API key)
+  - `topics` — extracted topics/categories
+  - `entities` — named entities (people, companies, products)
+  - `relationships` — links to other nodes
+  - `metadata` — date, author, word count, language
+- Output directory structure mirrors source structure
+- Index file (`brain-drain.json`) with full knowledge graph
 
-3. **Output structure:**
-   - `index.json`: manifest of all extracted entities
-   - `knowledge/`: one file per page/document
-   - `entities.json`: structured entity map (people, products, services, topics)
-   - `llm-ld.json`: LLM-LD formatted output (ai-readable standard)
-   - `summary.md`: human-readable summary of what was extracted
-
-4. **Each knowledge file contains:**
-   ```json
-   {
-     "id": "unique-slug",
-     "title": "Page Title",
-     "url": "source URL or file path",
-     "type": "article|product|service|person|faq|contact",
-     "content": "clean text content",
-     "summary": "1-2 sentence AI-generated summary",
-     "keywords": ["array", "of", "keywords"],
-     "entities": { "people": [], "products": [], "locations": [] },
-     "relationships": [],
-     "lastModified": "ISO date",
-     "source": "website|local|sitemap"
-   }
-   ```
-
-5. **LLM-LD output** (`llm-ld.json`):
-   Follows the LLM-LD open standard. Makes the knowledge base readable by AI agents as a structured context block.
-
-## Tech Stack
-- Node.js CLI (no framework needed)
-- `commander` for CLI argument parsing
-- `cheerio` for HTML parsing
-- `marked` for markdown parsing
-- `node-fetch` for URL crawling
-- `pdf-parse` for PDF support (optional, graceful fallback)
-
-## Package
-- Package name: `brain-drain`
-- Bin: `brain-drain`
-- License: MIT
-- Publish target: npm + GitHub (public, under Capxel org)
-
-## Output Quality Rules
-- Strip navigation, headers, footers, cookie notices
-- Preserve headings structure (H1→H2→H3)
-- Extract structured data (FAQ patterns, product specs, team bios)
-- Deduplicate content across pages
-- Never truncate — full content in every file
-
-## Example Usage
+### CLI Interface
 ```bash
 # Crawl a website
-brain-drain https://capxel.com --depth 2 --output ./capxel-knowledge
+brain-drain crawl https://example.com --output ./output --depth 2
 
-# Process a local docs folder
-brain-drain ~/Documents/client-docs --format jsonld --output ./client-knowledge
+# Process local docs
+brain-drain local ./my-docs --output ./output
 
-# Process a sitemap
-brain-drain https://example.com/sitemap.xml --output ./example-knowledge
+# From sitemap
+brain-drain sitemap https://example.com/sitemap.xml --output ./output
+
+# With AI summaries (requires OpenAI key)
+brain-drain crawl https://example.com --output ./output --summarize
+
+# Output formats
+brain-drain crawl https://example.com --format json    # default
+brain-drain crawl https://example.com --format markdown # human-readable
+brain-drain crawl https://example.com --format both     # json + markdown
 ```
 
-## Files to Create
-- `package.json`
-- `README.md` (with usage, examples, LLM-LD badge)
-- `bin/brain-drain.js` (CLI entry point)
-- `src/crawler.js` (URL crawling logic)
-- `src/parser.js` (HTML/MD/PDF parsing + cleaning)
-- `src/extractor.js` (entity + structure extraction)
-- `src/formatter.js` (output formatting — JSON, markdown, LLM-LD)
-- `src/index.js` (main orchestration)
-- `.gitignore`
-- `LICENSE` (MIT)
+### Technical Stack
+- **Language:** TypeScript (Node.js)
+- **Package manager:** npm (widest compatibility for open source)
+- **Web crawling:** cheerio + node-fetch (lightweight, no browser needed)
+- **Content extraction:** mozilla/readability (same as Firefox Reader View)
+- **CLI framework:** commander.js
+- **Output:** JSON + optional Markdown
+- **No external AI dependency required** — summaries are optional enhancement
+
+### File Structure
+```
+brain-drain/
+├── src/
+│   ├── index.ts          # CLI entry point
+│   ├── crawl.ts          # Website crawler
+│   ├── local.ts          # Local file processor
+│   ├── sitemap.ts        # Sitemap parser
+│   ├── extract.ts        # Content extraction (readability)
+│   ├── structure.ts      # Knowledge structuring (topics, entities)
+│   ├── summarize.ts      # Optional AI summary generation
+│   ├── output.ts         # Output formatter (JSON/Markdown)
+│   └── types.ts          # TypeScript types
+├── package.json
+├── tsconfig.json
+├── README.md             # Comprehensive docs with examples
+├── LICENSE               # MIT
+└── .github/
+    └── workflows/
+        └── ci.yml        # GitHub Actions CI
+```
+
+### README Requirements
+- Clear "What is this?" section
+- Installation: `npm install -g brain-drain` or `npx brain-drain`
+- Quick start with 3 example commands
+- Output format documentation
+- Link to LLM-LD standard
+- "Built by Capxel" with link to capxel.com
+- "Part of the ASO toolkit" positioning
+
+## Quality Bar
+- Must work on first `npx brain-drain crawl <url>` with zero config
+- Clean TypeScript, no `any` types
+- Handles errors gracefully (404s, timeouts, malformed HTML)
+- Progress indicator for crawls
+- Respects robots.txt
+- Rate limiting (1 req/sec default, configurable)
+- Tested on at least 3 real websites before release
