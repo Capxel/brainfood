@@ -1,12 +1,12 @@
 # brain-drain
 
-`brain-drain` is Capxel’s open-source CLI for turning messy knowledge sources into structured, AI-readable output.
+`brain-drain` is Capxel's open-source CLI for turning messy knowledge sources into structured, AI-readable output.
 
 It crawls websites, ingests local docs, reads sitemaps, extracts the important content, and writes a clean knowledge graph that agents can actually use.
 
 ## What is this?
 
-Most companies already have the knowledge AI systems need — it is just trapped inside websites, docs folders, internal exports, and long-form content built for humans instead of machines.
+Most companies already have the knowledge AI systems need - it is just trapped inside websites, docs folders, internal exports, and long-form content built for humans instead of machines.
 
 `brain-drain` converts those sources into:
 
@@ -20,7 +20,7 @@ This project is built to align with LLM-LD principles for machine-readable knowl
 
 ## Why it exists
 
-`brain-drain` is the front door to Capxel’s broader ASO toolkit.
+`brain-drain` pairs with Capxel's Agentic Search Optimization (ASO) service for full AI visibility deployment.
 
 - Open source under MIT
 - Zero-config first run for common use cases
@@ -29,7 +29,7 @@ This project is built to align with LLM-LD principles for machine-readable knowl
 
 ## Built by Capxel
 
-Built by Capxel — https://capxel.com
+Built by Capxel - https://capxel.com
 
 Part of the ASO toolkit.
 

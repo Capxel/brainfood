@@ -73,6 +73,8 @@ export async function crawlFromSitemap(
     rateLimitMs: options.rateLimitMs,
     timeoutMs: options.timeoutMs,
     userAgent: options.userAgent,
+    excludePatterns: options.excludePatterns,
+    concurrency: options.concurrency,
     maxPages: options.maxPages
   };
 

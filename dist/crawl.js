@@ -5,20 +5,30 @@ const HTML_CONTENT_TYPES = ['text/html', 'application/xhtml+xml'];
 const TEXT_CONTENT_TYPES = ['text/plain', 'text/markdown', 'text/x-markdown'];
 class RateLimitedFetcher {
     options;
-    lastRequestAt = 0;
+    nextRequestAt = 0;
+    reservation = Promise.resolve();
     constructor(options) {
         this.options = options;
     }
-    async fetch(url, init = {}) {
-        const elapsed = Date.now() - this.lastRequestAt;
-        const waitMs = Math.max(0, this.options.rateLimitMs - elapsed);
+    async reserveStartSlot() {
+        let waitMs = 0;
+        const reservation = this.reservation.then(() => {
+            const now = Date.now();
+            const startAt = Math.max(now, this.nextRequestAt);
+            this.nextRequestAt = startAt + this.options.rateLimitMs;
+            waitMs = Math.max(0, startAt - now);
+        });
+        this.reservation = reservation.catch(() => undefined);
+        await reservation;
         if (waitMs > 0) {
             await sleep(waitMs);
         }
+    }
+    async fetch(url, init = {}) {
+        await this.reserveStartSlot();
         const controller = new AbortController();
         const timeout = setTimeout(() => controller.abort(), this.options.timeoutMs);
         try {
-            this.lastRequestAt = Date.now();
             return await fetch(url, {
                 ...init,
                 headers: {
@@ -109,6 +119,43 @@ function isAllowedByRobots(targetUrl, robots) {
     }
     return bestMatch ? bestMatch.allow : true;
 }
+function matchesExcludePattern(pathname, pattern) {
+    if (!pattern) {
+        return false;
+    }
+    if (pattern.endsWith('/*')) {
+        return pathname.startsWith(pattern.slice(0, -1));
+    }
+    if (pattern.startsWith('*')) {
+        return pathname.endsWith(pattern.slice(1));
+    }
+    if (pattern.endsWith('*')) {
+        return pathname.startsWith(pattern.slice(0, -1));
+    }
+    return pathname === pattern;
+}
+function getExcludedPath(targetUrl, patterns) {
+    const url = new URL(targetUrl);
+    const pathname = `${url.pathname || '/'}${url.search || ''}`;
+    return patterns.some((pattern) => matchesExcludePattern(pathname, pattern) || matchesExcludePattern(url.pathname || '/', pattern))
+        ? pathname
+        : null;
+}
+function reportExcluded(stage, targetUrl, options, saved, queued, active, onProgress) {
+    const excludedPath = getExcludedPath(targetUrl, options.excludePatterns);
+    if (!excludedPath) {
+        return false;
+    }
+    onProgress?.({
+        stage,
+        current: saved,
+        queued,
+        saved,
+        active,
+        message: `Skipping ${excludedPath} (excluded)`
+    });
+    return true;
+}
 async function fetchRobots(origin, fetcher) {
     try {
         const response = await fetcher.fetch(`${origin}/robots.txt`);
@@ -161,6 +208,38 @@ async function fetchSingleUrl(url, sourceType, fetcher) {
     }
     return null;
 }
+async function fetchBatch(entries, sourceType, fetcher, saved, queued, onProgress) {
+    const active = entries.length;
+    return Promise.all(entries.map(async (entry, index) => {
+        onProgress?.({
+            stage: sourceType,
+            current: saved + index + 1,
+            queued,
+            saved,
+            active,
+            message: `Fetching ${entry.url}`
+        });
+        try {
+            const document = await fetchSingleUrl(entry.url, sourceType, fetcher);
+            if (!document) {
+                return {
+                    url: entry.url,
+                    error: `Skipped unsupported content type at ${entry.url}`
+                };
+            }
+            return {
+                url: entry.url,
+                document
+            };
+        }
+        catch (error) {
+            return {
+                url: entry.url,
+                error: error instanceof Error ? error.message : `Unknown crawl error for ${entry.url}`
+            };
+        }
+    }));
+}
 export async function crawlWebsite(rootUrl, options, onProgress) {
     const normalizedRoot = normalizeUrl(rootUrl);
     const root = new URL(normalizedRoot);
@@ -171,60 +250,69 @@ export async function crawlWebsite(rootUrl, options, onProgress) {
     });
     const robots = await fetchRobots(root.origin, fetcher);
     const queue = [{ url: normalizedRoot, depth: 0 }];
+    const queued = new Set([normalizedRoot]);
     const seen = new Set();
     const documents = [];
     const errors = [];
     while (queue.length > 0 && documents.length < options.maxPages) {
-        const current = queue.shift();
-        if (!current) {
-            break;
+        const batch = [];
+        while (queue.length > 0 && batch.length < options.concurrency && documents.length + batch.length < options.maxPages) {
+            const current = queue.shift();
+            if (!current || seen.has(current.url)) {
+                continue;
+            }
+            seen.add(current.url);
+            if (reportExcluded('crawl', current.url, options, documents.length, queue.length, batch.length, onProgress)) {
+                continue;
+            }
+            if (!isAllowedByRobots(current.url, robots)) {
+                errors.push(`Skipped by robots.txt: ${current.url}`);
+                continue;
+            }
+            batch.push(current);
         }
-        if (seen.has(current.url)) {
+        if (batch.length === 0) {
             continue;
         }
-        seen.add(current.url);
-        if (!isAllowedByRobots(current.url, robots)) {
-            errors.push(`Skipped by robots.txt: ${current.url}`);
-            continue;
-        }
-        onProgress?.({
-            stage: 'crawl',
-            current: documents.length + 1,
-            queued: queue.length,
-            saved: documents.length,
-            message: `Fetching ${current.url}`
-        });
-        try {
-            const document = await fetchSingleUrl(current.url, 'crawl', fetcher);
+        const results = await fetchBatch(batch, 'crawl', fetcher, documents.length, queue.length, onProgress);
+        for (const [index, result] of results.entries()) {
+            if (result.error) {
+                errors.push(result.error);
+                onProgress?.({
+                    stage: 'crawl',
+                    current: documents.length,
+                    queued: queue.length,
+                    saved: documents.length,
+                    active: Math.max(0, results.length - index - 1),
+                    message: result.error
+                });
+                continue;
+            }
+            const document = result.document;
             if (!document) {
-                errors.push(`Skipped unsupported content type at ${current.url}`);
                 continue;
             }
             documents.push(document);
-            if (!document.html || current.depth >= options.depth) {
+            const current = batch[index];
+            if (!current || !document.html || current.depth >= options.depth) {
                 continue;
             }
             for (const link of document.discoveredLinks) {
                 if (!link.absoluteUrl) {
                     continue;
                 }
-                const target = new URL(link.absoluteUrl);
-                if (target.origin !== root.origin || seen.has(link.absoluteUrl)) {
+                const normalizedLink = normalizeUrl(link.absoluteUrl);
+                const target = new URL(normalizedLink);
+                if (target.origin !== root.origin || seen.has(normalizedLink) || queued.has(normalizedLink)) {
                     continue;
                 }
-                queue.push({ url: link.absoluteUrl, depth: current.depth + 1 });
+                if (reportExcluded('crawl', normalizedLink, options, documents.length, queue.length, 0, onProgress)) {
+                    seen.add(normalizedLink);
+                    continue;
+                }
+                queue.push({ url: normalizedLink, depth: current.depth + 1 });
+                queued.add(normalizedLink);
             }
-        }
-        catch (error) {
-            const message = error instanceof Error ? error.message : `Unknown crawl error for ${current.url}`;
-            errors.push(message);
-            onProgress?.({
-                stage: 'crawl',
-                current: documents.length,
-                queued: queue.length,
-                saved: documents.length,
-                message
-            });
         }
     }
     return { documents, errors };
@@ -236,33 +324,55 @@ export async function fetchDocumentsFromUrls(urls, options, sourceType, onProgre
         userAgent: options.userAgent
     });
     const robotsCache = new Map();
+    const normalizedUrls = Array.from(new Set(urls.map((url) => normalizeUrl(url)))).slice(0, options.maxPages);
     const documents = [];
     const errors = [];
-    for (const [index, url] of urls.slice(0, options.maxPages).entries()) {
-        const normalized = normalizeUrl(url);
-        const origin = new URL(normalized).origin;
-        if (!robotsCache.has(origin)) {
-            robotsCache.set(origin, await fetchRobots(origin, fetcher));
-        }
-        if (!isAllowedByRobots(normalized, robotsCache.get(origin) || null)) {
-            errors.push(`Skipped by robots.txt: ${normalized}`);
-            continue;
-        }
-        onProgress?.({
-            stage: sourceType,
-            current: index + 1,
-            queued: Math.max(0, urls.length - index - 1),
-            saved: documents.length,
-            message: `Fetching ${normalized}`
-        });
-        try {
-            const document = await fetchSingleUrl(normalized, sourceType, fetcher);
-            if (document) {
-                documents.push(document);
+    for (let start = 0; start < normalizedUrls.length; start += options.concurrency) {
+        const chunk = normalizedUrls.slice(start, start + options.concurrency);
+        const active = chunk.length;
+        const results = await Promise.all(chunk.map(async (url, offset) => {
+            if (reportExcluded(sourceType, url, options, documents.length, Math.max(0, normalizedUrls.length - start - offset - 1), active, onProgress)) {
+                return { url };
             }
-        }
-        catch (error) {
-            errors.push(error instanceof Error ? error.message : `Unknown fetch error for ${normalized}`);
+            const origin = new URL(url).origin;
+            if (!robotsCache.has(origin)) {
+                robotsCache.set(origin, await fetchRobots(origin, fetcher));
+            }
+            if (!isAllowedByRobots(url, robotsCache.get(origin) || null)) {
+                return {
+                    url,
+                    error: `Skipped by robots.txt: ${url}`
+                };
+            }
+            onProgress?.({
+                stage: sourceType,
+                current: start + offset + 1,
+                queued: Math.max(0, normalizedUrls.length - start - offset - 1),
+                saved: documents.length,
+                active,
+                message: `Fetching ${url}`
+            });
+            try {
+                return {
+                    url,
+                    document: await fetchSingleUrl(url, sourceType, fetcher)
+                };
+            }
+            catch (error) {
+                return {
+                    url,
+                    error: error instanceof Error ? error.message : `Unknown fetch error for ${url}`
+                };
+            }
+        }));
+        for (const result of results) {
+            if (result.error) {
+                errors.push(result.error);
+                continue;
+            }
+            if (result.document) {
+                documents.push(result.document);
+            }
         }
     }
     return { documents, errors };

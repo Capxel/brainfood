@@ -1,7 +1,7 @@
 {
   "name": "brain-drain",
   "version": "1.0.0",
-  "description": "Capxel's CLI for turning websites, sitemaps, and local docs into AI-readable knowledge graphs.",
+  "description": "CLI for turning websites, sitemaps, and local docs into AI-readable knowledge graphs.",
   "type": "module",
   "license": "MIT",
   "author": "Capxel",
@@ -49,7 +49,9 @@
     "cheerio": "^1.1.2",
     "commander": "^14.0.1",
     "jsdom": "^26.1.0",
-    "node-fetch": "^3.3.2"
+    "mammoth": "^1.12.0",
+    "node-fetch": "^3.3.2",
+    "pdf-parse": "^2.4.5"
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.7",

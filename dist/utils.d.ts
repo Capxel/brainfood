@@ -7,6 +7,7 @@ export declare function normalizeUrl(rawUrl: string): string;
 export declare function urlToRelativeOutputPath(rawUrl: string): string;
 export declare function localPathToRelativeOutputPath(rootDir: string, filePath: string): string;
 export declare function shortHash(input: string): string;
+export declare function fallbackSummary(content: string): string | null;
 export declare function sentenceSummary(content: string): string | null;
 export declare function safeIsoDate(value: string | null | undefined): string | null;
 export declare function packageVersion(): string;

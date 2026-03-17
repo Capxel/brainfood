@@ -58,6 +58,8 @@ export async function crawlFromSitemap(sitemapUrl, options, onProgress) {
         rateLimitMs: options.rateLimitMs,
         timeoutMs: options.timeoutMs,
         userAgent: options.userAgent,
+        excludePatterns: options.excludePatterns,
+        concurrency: options.concurrency,
         maxPages: options.maxPages
     };
     const result = await fetchDocumentsFromUrls(urls, crawlOptions, 'sitemap', onProgress);

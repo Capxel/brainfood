@@ -1,4 +1,12 @@
 node_modules/
+dist/
+test-output/
+demo-output/
+sitemap-output/
 brain-drain-output/
+*.tgz
 *.log
 .DS_Store
+SPEC.md
+V1-POLISH-SPEC.md
+*.local

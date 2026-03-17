@@ -33,11 +33,12 @@ function markdownFrontMatter(node: KnowledgeNode): string {
 
 function renderMarkdownNode(node: KnowledgeNode): string {
   const origin = node.url || node.source || node.metadata.canonicalSource;
+  const title = node.title.replace(/^#+\s*/, '');
 
   return [
     markdownFrontMatter(node),
     '',
-    `# ${node.title}`,
+    `# ${title}`,
     '',
     `- Origin: ${origin}`,
     `- Source type: ${node.metadata.sourceType}`,
