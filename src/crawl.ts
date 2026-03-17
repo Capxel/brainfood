@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio';
-import fetch, { type RequestInit } from 'node-fetch';
+import fetch, { type RequestInit, type Response } from 'node-fetch';
 
-import type { CrawlOptions, DiscoveredLink, ProgressUpdate, RawDocument } from './types.js';
+import type { CrawlOptions, DiscoveredLink, ProgressUpdate, RawDocument, SourceType } from './types.js';
 import { DEFAULT_USER_AGENT, normalizeUrl, safeIsoDate, sleep, urlToRelativeOutputPath } from './utils.js';
 
 const HTML_CONTENT_TYPES = ['text/html', 'application/xhtml+xml'];
@@ -32,23 +32,42 @@ export interface CrawlResult {
   errors: string[];
 }
 
+interface FetchAttemptResult {
+  document?: RawDocument | null;
+  error?: string;
+  url: string;
+}
+
 class RateLimitedFetcher {
-  private lastRequestAt = 0;
+  private nextRequestAt = 0;
+  private reservation: Promise<void> = Promise.resolve();
 
   constructor(private readonly options: FetchRuntimeOptions) {}
 
-  async fetch(url: string, init: RequestInit = {}): Promise<import('node-fetch').Response> {
-    const elapsed = Date.now() - this.lastRequestAt;
-    const waitMs = Math.max(0, this.options.rateLimitMs - elapsed);
+  private async reserveStartSlot(): Promise<void> {
+    let waitMs = 0;
+    const reservation = this.reservation.then(() => {
+      const now = Date.now();
+      const startAt = Math.max(now, this.nextRequestAt);
+      this.nextRequestAt = startAt + this.options.rateLimitMs;
+      waitMs = Math.max(0, startAt - now);
+    });
+
+    this.reservation = reservation.catch(() => undefined);
+    await reservation;
+
     if (waitMs > 0) {
       await sleep(waitMs);
     }
+  }
+
+  async fetch(url: string, init: RequestInit = {}): Promise<Response> {
+    await this.reserveStartSlot();
 
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), this.options.timeoutMs);
 
     try {
-      this.lastRequestAt = Date.now();
       return await fetch(url, {
         ...init,
         headers: {
@@ -158,6 +177,59 @@ function isAllowedByRobots(targetUrl: string, robots: RobotsConfig | null): bool
   return bestMatch ? bestMatch.allow : true;
 }
 
+function matchesExcludePattern(pathname: string, pattern: string): boolean {
+  if (!pattern) {
+    return false;
+  }
+
+  if (pattern.endsWith('/*')) {
+    return pathname.startsWith(pattern.slice(0, -1));
+  }
+
+  if (pattern.startsWith('*')) {
+    return pathname.endsWith(pattern.slice(1));
+  }
+
+  if (pattern.endsWith('*')) {
+    return pathname.startsWith(pattern.slice(0, -1));
+  }
+
+  return pathname === pattern;
+}
+
+function getExcludedPath(targetUrl: string, patterns: string[]): string | null {
+  const url = new URL(targetUrl);
+  const pathname = `${url.pathname || '/'}${url.search || ''}`;
+  return patterns.some((pattern) => matchesExcludePattern(pathname, pattern) || matchesExcludePattern(url.pathname || '/', pattern))
+    ? pathname
+    : null;
+}
+
+function reportExcluded(
+  stage: 'crawl' | 'sitemap',
+  targetUrl: string,
+  options: Pick<CrawlOptions, 'excludePatterns'>,
+  saved: number,
+  queued: number,
+  active: number,
+  onProgress?: (update: ProgressUpdate) => void
+): boolean {
+  const excludedPath = getExcludedPath(targetUrl, options.excludePatterns);
+  if (!excludedPath) {
+    return false;
+  }
+
+  onProgress?.({
+    stage,
+    current: saved,
+    queued,
+    saved,
+    active,
+    message: `Skipping ${excludedPath} (excluded)`
+  });
+  return true;
+}
+
 async function fetchRobots(origin: string, fetcher: RateLimitedFetcher): Promise<RobotsConfig | null> {
   try {
     const response = await fetcher.fetch(`${origin}/robots.txt`);
@@ -216,6 +288,50 @@ async function fetchSingleUrl(url: string, sourceType: 'crawl' | 'sitemap', fetc
   return null;
 }
 
+async function fetchBatch(
+  entries: QueueEntry[],
+  sourceType: 'crawl' | 'sitemap',
+  fetcher: RateLimitedFetcher,
+  saved: number,
+  queued: number,
+  onProgress?: (update: ProgressUpdate) => void
+): Promise<FetchAttemptResult[]> {
+  const active = entries.length;
+
+  return Promise.all(
+    entries.map(async (entry, index) => {
+      onProgress?.({
+        stage: sourceType,
+        current: saved + index + 1,
+        queued,
+        saved,
+        active,
+        message: `Fetching ${entry.url}`
+      });
+
+      try {
+        const document = await fetchSingleUrl(entry.url, sourceType, fetcher);
+        if (!document) {
+          return {
+            url: entry.url,
+            error: `Skipped unsupported content type at ${entry.url}`
+          };
+        }
+
+        return {
+          url: entry.url,
+          document
+        };
+      } catch (error) {
+        return {
+          url: entry.url,
+          error: error instanceof Error ? error.message : `Unknown crawl error for ${entry.url}`
+        };
+      }
+    })
+  );
+}
+
 export async function crawlWebsite(
   rootUrl: string,
   options: CrawlOptions,
@@ -230,43 +346,62 @@ export async function crawlWebsite(
   });
   const robots = await fetchRobots(root.origin, fetcher);
   const queue: QueueEntry[] = [{ url: normalizedRoot, depth: 0 }];
+  const queued = new Set<string>([normalizedRoot]);
   const seen = new Set<string>();
   const documents: RawDocument[] = [];
   const errors: string[] = [];
 
   while (queue.length > 0 && documents.length < options.maxPages) {
-    const current = queue.shift();
-    if (!current) {
-      break;
+    const batch: QueueEntry[] = [];
+
+    while (queue.length > 0 && batch.length < options.concurrency && documents.length + batch.length < options.maxPages) {
+      const current = queue.shift();
+      if (!current || seen.has(current.url)) {
+        continue;
+      }
+
+      seen.add(current.url);
+
+      if (reportExcluded('crawl', current.url, options, documents.length, queue.length, batch.length, onProgress)) {
+        continue;
+      }
+
+      if (!isAllowedByRobots(current.url, robots)) {
+        errors.push(`Skipped by robots.txt: ${current.url}`);
+        continue;
+      }
+
+      batch.push(current);
     }
 
-    if (seen.has(current.url)) {
+    if (batch.length === 0) {
       continue;
     }
 
-    seen.add(current.url);
-    if (!isAllowedByRobots(current.url, robots)) {
-      errors.push(`Skipped by robots.txt: ${current.url}`);
-      continue;
-    }
+    const results = await fetchBatch(batch, 'crawl', fetcher, documents.length, queue.length, onProgress);
 
-    onProgress?.({
-      stage: 'crawl',
-      current: documents.length + 1,
-      queued: queue.length,
-      saved: documents.length,
-      message: `Fetching ${current.url}`
-    });
+    for (const [index, result] of results.entries()) {
+      if (result.error) {
+        errors.push(result.error);
+        onProgress?.({
+          stage: 'crawl',
+          current: documents.length,
+          queued: queue.length,
+          saved: documents.length,
+          active: Math.max(0, results.length - index - 1),
+          message: result.error
+        });
+        continue;
+      }
 
-    try {
-      const document = await fetchSingleUrl(current.url, 'crawl', fetcher);
+      const document = result.document;
       if (!document) {
-        errors.push(`Skipped unsupported content type at ${current.url}`);
         continue;
       }
 
       documents.push(document);
-      if (!document.html || current.depth >= options.depth) {
+      const current = batch[index];
+      if (!current || !document.html || current.depth >= options.depth) {
         continue;
       }
 
@@ -275,23 +410,20 @@ export async function crawlWebsite(
           continue;
         }
 
-        const target = new URL(link.absoluteUrl);
-        if (target.origin !== root.origin || seen.has(link.absoluteUrl)) {
+        const normalizedLink = normalizeUrl(link.absoluteUrl);
+        const target = new URL(normalizedLink);
+        if (target.origin !== root.origin || seen.has(normalizedLink) || queued.has(normalizedLink)) {
           continue;
         }
 
-        queue.push({ url: link.absoluteUrl, depth: current.depth + 1 });
+        if (reportExcluded('crawl', normalizedLink, options, documents.length, queue.length, 0, onProgress)) {
+          seen.add(normalizedLink);
+          continue;
+        }
+
+        queue.push({ url: normalizedLink, depth: current.depth + 1 });
+        queued.add(normalizedLink);
       }
-    } catch (error) {
-      const message = error instanceof Error ? error.message : `Unknown crawl error for ${current.url}`;
-      errors.push(message);
-      onProgress?.({
-        stage: 'crawl',
-        current: documents.length,
-        queued: queue.length,
-        saved: documents.length,
-        message
-      });
     }
   }
 
@@ -311,37 +443,63 @@ export async function fetchDocumentsFromUrls(
   });
 
   const robotsCache = new Map<string, RobotsConfig | null>();
+  const normalizedUrls = Array.from(new Set(urls.map((url) => normalizeUrl(url)))).slice(0, options.maxPages);
   const documents: RawDocument[] = [];
   const errors: string[] = [];
 
-  for (const [index, url] of urls.slice(0, options.maxPages).entries()) {
-    const normalized = normalizeUrl(url);
-    const origin = new URL(normalized).origin;
+  for (let start = 0; start < normalizedUrls.length; start += options.concurrency) {
+    const chunk = normalizedUrls.slice(start, start + options.concurrency);
+    const active = chunk.length;
+    const results = await Promise.all(
+      chunk.map(async (url, offset) => {
+        if (reportExcluded(sourceType, url, options, documents.length, Math.max(0, normalizedUrls.length - start - offset - 1), active, onProgress)) {
+          return { url } satisfies FetchAttemptResult;
+        }
 
-    if (!robotsCache.has(origin)) {
-      robotsCache.set(origin, await fetchRobots(origin, fetcher));
-    }
+        const origin = new URL(url).origin;
+        if (!robotsCache.has(origin)) {
+          robotsCache.set(origin, await fetchRobots(origin, fetcher));
+        }
 
-    if (!isAllowedByRobots(normalized, robotsCache.get(origin) || null)) {
-      errors.push(`Skipped by robots.txt: ${normalized}`);
-      continue;
-    }
+        if (!isAllowedByRobots(url, robotsCache.get(origin) || null)) {
+          return {
+            url,
+            error: `Skipped by robots.txt: ${url}`
+          } satisfies FetchAttemptResult;
+        }
 
-    onProgress?.({
-      stage: sourceType,
-      current: index + 1,
-      queued: Math.max(0, urls.length - index - 1),
-      saved: documents.length,
-      message: `Fetching ${normalized}`
-    });
+        onProgress?.({
+          stage: sourceType,
+          current: start + offset + 1,
+          queued: Math.max(0, normalizedUrls.length - start - offset - 1),
+          saved: documents.length,
+          active,
+          message: `Fetching ${url}`
+        });
 
-    try {
-      const document = await fetchSingleUrl(normalized, sourceType, fetcher);
-      if (document) {
-        documents.push(document);
+        try {
+          return {
+            url,
+            document: await fetchSingleUrl(url, sourceType, fetcher)
+          } satisfies FetchAttemptResult;
+        } catch (error) {
+          return {
+            url,
+            error: error instanceof Error ? error.message : `Unknown fetch error for ${url}`
+          } satisfies FetchAttemptResult;
+        }
+      })
+    );
+
+    for (const result of results) {
+      if (result.error) {
+        errors.push(result.error);
+        continue;
       }
-    } catch (error) {
-      errors.push(error instanceof Error ? error.message : `Unknown fetch error for ${normalized}`);
+
+      if (result.document) {
+        documents.push(result.document);
+      }
     }
   }
 

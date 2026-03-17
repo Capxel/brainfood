@@ -9,13 +9,21 @@ import { writeOutputBundle } from './output.js';
 import { crawlFromSitemap } from './sitemap.js';
 import { buildKnowledgeGraph, buildKnowledgeNodes } from './structure.js';
 import { generateSummary } from './summarize.js';
-import type { CrawlOptions, KnowledgeNode, OutputFormat, ProgressUpdate, SharedOptions, SitemapOptions, SourceType, ExtractedDocument } from './types.js';
+import type { CrawlOptions, ExtractedDocument, KnowledgeNode, OutputFormat, ProgressUpdate, SharedOptions, SitemapOptions, SourceType } from './types.js';
 import { DEFAULT_USER_AGENT } from './utils.js';
 
 function parsePositiveInteger(value: string, label: string): number {
   const parsed = Number.parseInt(value, 10);
   if (!Number.isFinite(parsed) || parsed <= 0) {
     throw new Error(`${label} must be a positive integer.`);
+  }
+  return parsed;
+}
+
+function parseConcurrency(value: string | undefined): number {
+  const parsed = parsePositiveInteger(value || '3', 'concurrency');
+  if (parsed > 10) {
+    throw new Error('concurrency must be 10 or less.');
   }
   return parsed;
 }
@@ -28,11 +36,19 @@ function parseFormat(value: string): OutputFormat {
   throw new Error(`Unsupported format: ${value}`);
 }
 
+function parseExcludePatterns(value: string | undefined): string[] {
+  return (value || '')
+    .split(',')
+    .map((pattern) => pattern.trim())
+    .filter(Boolean);
+}
+
 function logProgress(update: ProgressUpdate): void {
   const counts = [
     typeof update.current === 'number' ? `current=${update.current}` : null,
     typeof update.queued === 'number' ? `queued=${update.queued}` : null,
-    typeof update.saved === 'number' ? `saved=${update.saved}` : null
+    typeof update.saved === 'number' ? `saved=${update.saved}` : null,
+    typeof update.active === 'number' ? `active=${update.active}` : null
   ]
     .filter(Boolean)
     .join(' ');
@@ -47,6 +63,8 @@ function createSharedOptions(commandOptions: {
   rateLimit?: string;
   timeout?: string;
   model?: string;
+  exclude?: string;
+  concurrency?: string;
 }): SharedOptions {
   return {
     output: commandOptions.output || './brain-drain-output',
@@ -55,11 +73,47 @@ function createSharedOptions(commandOptions: {
     openAiModel: commandOptions.model || 'gpt-4.1-mini',
     rateLimitMs: parsePositiveInteger(commandOptions.rateLimit || '1000', 'rate-limit'),
     timeoutMs: parsePositiveInteger(commandOptions.timeout || '15000', 'timeout'),
-    userAgent: DEFAULT_USER_AGENT
+    userAgent: DEFAULT_USER_AGENT,
+    excludePatterns: parseExcludePatterns(commandOptions.exclude),
+    concurrency: parseConcurrency(commandOptions.concurrency)
   };
 }
 
-async function finalizeRun(sourceType: SourceType, sourceRoot: string, shared: SharedOptions, extractedDocuments: ExtractedDocument[]): Promise<void> {
+function boxLine(content: string, innerWidth: number): string {
+  return `│ ${content.padEnd(innerWidth)} │`;
+}
+
+function printCompletionSummary(sourceRoot: string, sourceType: SourceType, outputDir: string, graph: ReturnType<typeof buildKnowledgeGraph>, startedAt: number): void {
+  const elapsedSeconds = ((Date.now() - startedAt) / 1000).toFixed(1);
+  const lines = [
+    'brain-drain — complete',
+    `Source:        ${sourceRoot}`,
+    `Mode:          ${sourceType}`,
+    `Documents:     ${graph.stats.documentCount}`,
+    `Topics:        ${graph.stats.topicCount}`,
+    `Entities:      ${graph.stats.entityCount}`,
+    `Relationships: ${graph.stats.relationshipCount}`,
+    `Output:        ${outputDir}`,
+    `Time:          ${elapsedSeconds}s`
+  ];
+  const innerWidth = Math.max(...lines.map((line) => line.length));
+
+  console.log(`┌${'─'.repeat(innerWidth + 2)}┐`);
+  console.log(boxLine(lines[0] || '', innerWidth));
+  console.log(`├${'─'.repeat(innerWidth + 2)}┤`);
+  for (const line of lines.slice(1)) {
+    console.log(boxLine(line, innerWidth));
+  }
+  console.log(`└${'─'.repeat(innerWidth + 2)}┘`);
+}
+
+async function finalizeRun(
+  sourceType: SourceType,
+  sourceRoot: string,
+  shared: SharedOptions,
+  extractedDocuments: ExtractedDocument[],
+  startedAt: number
+): Promise<void> {
   const nodes = buildKnowledgeNodes(extractedDocuments);
 
   const summarizedNodes: KnowledgeNode[] = [];
@@ -81,16 +135,15 @@ async function finalizeRun(sourceType: SourceType, sourceRoot: string, shared: S
   }
 
   const graph = buildKnowledgeGraph(sourceType, sourceRoot, summarizedNodes);
-  const result = await writeOutputBundle(graph, shared.output, shared.format);
-  console.log(`brain-drain wrote ${result.nodeCount} nodes to ${result.outputDir}`);
-  console.log(`Knowledge graph: ${result.graphPath}`);
+  await writeOutputBundle(graph, shared.output, shared.format);
+  printCompletionSummary(sourceRoot, sourceType, shared.output, graph, startedAt);
 }
 
 const program = new Command();
 
 program
   .name('brain-drain')
-  .description('Capxel CLI for turning websites, sitemaps, and local docs into AI-readable knowledge bundles.')
+  .description('CLI for turning websites, sitemaps, and local docs into AI-readable knowledge bundles.')
   .version('1.0.0');
 
 program
@@ -100,11 +153,14 @@ program
   .option('-f, --format <format>', 'Output format: json, markdown, or both', 'json')
   .option('--depth <number>', 'Maximum crawl depth', '2')
   .option('--max-pages <number>', 'Maximum pages to crawl', '50')
+  .option('--exclude <patterns>', 'Comma-separated path patterns to skip')
+  .option('--concurrency <number>', 'Concurrent fetches (default: 3, max: 10)', '3')
   .option('--rate-limit <milliseconds>', 'Minimum time between requests in milliseconds', '1000')
   .option('--timeout <milliseconds>', 'HTTP timeout in milliseconds', '15000')
   .option('--summarize', 'Generate higher-quality summaries with OpenAI')
   .option('--model <model>', 'OpenAI model for summaries', 'gpt-4.1-mini')
   .action(async (url, options) => {
+    const startedAt = Date.now();
     const shared = createSharedOptions(options);
     const crawlOptions: CrawlOptions = {
       ...shared,
@@ -118,7 +174,7 @@ program
     }
 
     const extracted = result.documents.map(extractDocument).filter((document) => document.content.trim().length > 0);
-    await finalizeRun('crawl', url, shared, extracted);
+    await finalizeRun('crawl', url, shared, extracted, startedAt);
 
     if (result.errors.length > 0) {
       console.error(`Completed with ${result.errors.length} warning(s).`);
@@ -130,7 +186,7 @@ program
 
 program
   .command('local')
-  .argument('<directory>', 'Local directory of markdown, HTML, or text files')
+  .argument('<directory>', 'Local directory of markdown, HTML, text, PDF, or DOCX files')
   .option('-o, --output <dir>', 'Output directory', './brain-drain-output')
   .option('-f, --format <format>', 'Output format: json, markdown, or both', 'json')
   .option('--rate-limit <milliseconds>', 'Unused for local mode; kept for interface consistency', '1000')
@@ -138,6 +194,7 @@ program
   .option('--summarize', 'Generate higher-quality summaries with OpenAI')
   .option('--model <model>', 'OpenAI model for summaries', 'gpt-4.1-mini')
   .action(async (directory, options) => {
+    const startedAt = Date.now();
     const shared = createSharedOptions(options);
     const documents = await collectLocalDocuments(directory, logProgress);
     if (documents.length === 0) {
@@ -145,7 +202,7 @@ program
     }
 
     const extracted = documents.map(extractDocument).filter((document) => document.content.trim().length > 0);
-    await finalizeRun('local', directory, shared, extracted);
+    await finalizeRun('local', directory, shared, extracted, startedAt);
   });
 
 program
@@ -154,11 +211,14 @@ program
   .option('-o, --output <dir>', 'Output directory', './brain-drain-output')
   .option('-f, --format <format>', 'Output format: json, markdown, or both', 'json')
   .option('--max-pages <number>', 'Maximum pages to fetch from the sitemap', '100')
+  .option('--exclude <patterns>', 'Comma-separated path patterns to skip')
+  .option('--concurrency <number>', 'Concurrent fetches (default: 3, max: 10)', '3')
   .option('--rate-limit <milliseconds>', 'Minimum time between requests in milliseconds', '1000')
   .option('--timeout <milliseconds>', 'HTTP timeout in milliseconds', '15000')
   .option('--summarize', 'Generate higher-quality summaries with OpenAI')
   .option('--model <model>', 'OpenAI model for summaries', 'gpt-4.1-mini')
   .action(async (url, options) => {
+    const startedAt = Date.now();
     const shared = createSharedOptions(options);
     const sitemapOptions: SitemapOptions = {
       ...shared,
@@ -171,7 +231,7 @@ program
     }
 
     const extracted = result.documents.map(extractDocument).filter((document) => document.content.trim().length > 0);
-    await finalizeRun('sitemap', url, shared, extracted);
+    await finalizeRun('sitemap', url, shared, extracted, startedAt);
 
     if (result.errors.length > 0) {
       console.error(`Completed with ${result.errors.length} warning(s).`);

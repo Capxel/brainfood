@@ -8,6 +8,8 @@ export interface SharedOptions {
     rateLimitMs: number;
     timeoutMs: number;
     userAgent: string;
+    excludePatterns: string[];
+    concurrency: number;
 }
 export interface CrawlOptions extends SharedOptions {
     depth: number;
@@ -21,6 +23,7 @@ export interface ProgressUpdate {
     current?: number;
     queued?: number;
     saved?: number;
+    active?: number;
     message: string;
 }
 export interface DiscoveredLink {
@@ -62,15 +65,16 @@ export interface ExtractedDocument {
     wordCount: number;
     discoveredLinks: DiscoveredLink[];
 }
-export type EntityType = 'person' | 'company' | 'product' | 'topic' | 'unknown';
+export type EntityType = 'person' | 'company' | 'product' | 'location' | 'institution' | 'topic' | 'unknown';
 export interface Entity {
     name: string;
     type: EntityType;
 }
 export interface Relationship {
-    type: 'links_to';
+    type: 'links_to' | 'related_to';
     target: string;
     targetTitle?: string;
+    weight?: number;
 }
 export interface KnowledgeNode {
     id: string;

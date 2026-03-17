@@ -64,7 +64,15 @@ export function localPathToRelativeOutputPath(rootDir, filePath) {
 export function shortHash(input) {
     return createHash('sha256').update(input).digest('hex').slice(0, 12);
 }
-export function sentenceSummary(content) {
+const SUMMARY_STOPWORDS = new Set([
+    'a', 'an', 'and', 'are', 'as', 'at', 'be', 'been', 'being', 'but', 'by', 'for', 'from', 'had', 'has', 'have',
+    'he', 'her', 'his', 'in', 'into', 'is', 'it', 'its', 'of', 'on', 'or', 'our', 'she', 'that', 'the', 'their',
+    'them', 'they', 'this', 'to', 'was', 'we', 'were', 'will', 'with', 'you', 'your'
+]);
+function summarizeText(sentences) {
+    return normalizeWhitespace(sentences.join(' ')) || null;
+}
+export function fallbackSummary(content) {
     const normalized = normalizeWhitespace(content);
     if (!normalized) {
         return null;
@@ -74,6 +82,53 @@ export function sentenceSummary(content) {
         .map((sentence) => sentence.trim())
         .filter(Boolean);
     return normalizeWhitespace(sentences.slice(0, 2).join(' ')).slice(0, 320) || null;
+}
+export function sentenceSummary(content) {
+    const normalized = normalizeWhitespace(content);
+    if (!normalized) {
+        return null;
+    }
+    const sentences = normalized
+        .split(/(?<=[.!?])\s+/)
+        .map((sentence) => sentence.trim())
+        .filter((sentence) => sentence.length >= 20);
+    if (sentences.length === 0) {
+        return fallbackSummary(content);
+    }
+    const scored = sentences.map((sentence, index) => {
+        const capitalizedWords = sentence.match(/\b[A-Z][a-z]+(?:[A-Z][A-Za-z]+)?\b/g)?.length || 0;
+        const numbers = sentence.match(/\b\d+(?:[.,]\d+)?\b/g)?.length || 0;
+        const uniqueTerms = new Set((sentence.toLowerCase().match(/\b[a-z][a-z0-9-]{2,}\b/g) || []).filter((term) => !SUMMARY_STOPWORDS.has(term))).size;
+        return {
+            sentence,
+            index,
+            score: capitalizedWords * 3 + numbers * 2 + uniqueTerms
+        };
+    });
+    const selected = scored
+        .filter((entry) => entry.score > 0)
+        .sort((left, right) => right.score - left.score || left.index - right.index)
+        .slice(0, 3)
+        .sort((left, right) => left.index - right.index)
+        .map((entry) => entry.sentence);
+    if (selected.length === 0) {
+        return fallbackSummary(content);
+    }
+    const kept = [];
+    for (const sentence of selected) {
+        const candidate = summarizeText([...kept, sentence]);
+        if (!candidate) {
+            continue;
+        }
+        if (candidate.length > 500) {
+            if (kept.length === 0) {
+                return candidate;
+            }
+            break;
+        }
+        kept.push(sentence);
+    }
+    return summarizeText(kept)?.slice(0, 500) || fallbackSummary(content);
 }
 export function safeIsoDate(value) {
     if (!value) {
