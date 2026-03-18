@@ -75,7 +75,7 @@ function extractLinks(html, baseUrl) {
     return links;
 }
 function parseRobotsTxt(content, userAgent) {
-    const desiredAgents = [userAgent.toLowerCase(), 'brain-drain', '*'];
+    const desiredAgents = [userAgent.toLowerCase(), 'brainfood', '*'];
     const lines = content.split(/\r?\n/);
     const rules = [];
     let applies = false;

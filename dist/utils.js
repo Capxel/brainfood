@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { mkdir } from 'node:fs/promises';
 import path from 'node:path';
-export const DEFAULT_USER_AGENT = 'brain-drain/1.0 (+https://github.com/Capxel/brain-drain)';
+export const DEFAULT_USER_AGENT = 'brainfood/1.0 (+https://github.com/Capxel/brainfood)';
 export function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -24,6 +24,14 @@ export function sanitizeSegment(value) {
         .replace(/^-+|-+$/g, '')
         .toLowerCase();
     return cleaned || 'index';
+}
+export function slugify(value) {
+    const normalized = value.normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
+    const slug = normalized
+        .replace(/[^a-zA-Z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+        .toLowerCase();
+    return slug || 'untitled';
 }
 export function normalizeUrl(rawUrl) {
     const url = new URL(rawUrl);

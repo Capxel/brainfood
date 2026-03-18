@@ -1,34 +1,41 @@
 {
-  "name": "brain-drain",
+  "name": "brainfood",
   "version": "1.0.0",
-  "description": "CLI for turning websites, sitemaps, and local docs into AI-readable knowledge graphs.",
+  "description": "Structured knowledge for hungry agents.",
   "type": "module",
   "license": "MIT",
   "author": "Capxel",
-  "homepage": "https://github.com/Capxel/brain-drain#readme",
+  "homepage": "https://github.com/Capxel/brainfood#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Capxel/brain-drain.git"
+    "url": "git+https://github.com/Capxel/brainfood.git"
   },
   "bugs": {
-    "url": "https://github.com/Capxel/brain-drain/issues"
+    "url": "https://github.com/Capxel/brainfood/issues"
   },
   "keywords": [
-    "capxel",
     "cli",
     "crawler",
     "knowledge-graph",
     "llm",
-    "llm-ld",
     "markdown",
     "sitemap",
-    "typescript"
+    "typescript",
+    "brainfood",
+    "obsidian",
+    "ai-agent",
+    "knowledge",
+    "structured-data",
+    "pdf",
+    "youtube",
+    "transcript",
+    "openclaw"
   ],
   "engines": {
     "node": ">=18"
   },
   "bin": {
-    "brain-drain": "dist/index.js"
+    "brainfood": "dist/index.js"
   },
   "files": [
     "dist",

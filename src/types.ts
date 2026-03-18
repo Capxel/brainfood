@@ -1,4 +1,4 @@
-export type OutputFormat = 'json' | 'markdown' | 'both';
+export type OutputFormat = 'json' | 'markdown' | 'obsidian' | 'both';
 
 export type SourceType = 'crawl' | 'local' | 'sitemap';
 

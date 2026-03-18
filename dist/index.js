@@ -23,7 +23,7 @@ function parseConcurrency(value) {
     return parsed;
 }
 function parseFormat(value) {
-    if (value === 'json' || value === 'markdown' || value === 'both') {
+    if (value === 'json' || value === 'markdown' || value === 'obsidian' || value === 'both') {
         return value;
     }
     throw new Error(`Unsupported format: ${value}`);
@@ -47,7 +47,7 @@ function logProgress(update) {
 }
 function createSharedOptions(commandOptions) {
     return {
-        output: commandOptions.output || './brain-drain-output',
+        output: commandOptions.output || './brainfood-output',
         format: parseFormat(commandOptions.format || 'json'),
         summarize: Boolean(commandOptions.summarize),
         openAiModel: commandOptions.model || 'gpt-4.1-mini',
@@ -64,7 +64,7 @@ function boxLine(content, innerWidth) {
 function printCompletionSummary(sourceRoot, sourceType, outputDir, graph, startedAt) {
     const elapsedSeconds = ((Date.now() - startedAt) / 1000).toFixed(1);
     const lines = [
-        'brain-drain — complete',
+        'brainfood — complete',
         `Source:        ${sourceRoot}`,
         `Mode:          ${sourceType}`,
         `Documents:     ${graph.stats.documentCount}`,
@@ -103,14 +103,14 @@ async function finalizeRun(sourceType, sourceRoot, shared, extractedDocuments, s
 }
 const program = new Command();
 program
-    .name('brain-drain')
-    .description('CLI for turning websites, sitemaps, and local docs into AI-readable knowledge bundles.')
+    .name('brainfood')
+    .description('Structured knowledge for hungry agents.')
     .version('1.0.0');
 program
     .command('crawl')
     .argument('<url>', 'Website URL to crawl')
-    .option('-o, --output <dir>', 'Output directory', './brain-drain-output')
-    .option('-f, --format <format>', 'Output format: json, markdown, or both', 'json')
+    .option('-o, --output <dir>', 'Output directory', './brainfood-output')
+    .option('-f, --format <format>', 'Output format: json, markdown, obsidian, or both', 'json')
     .option('--depth <number>', 'Maximum crawl depth', '2')
     .option('--max-pages <number>', 'Maximum pages to crawl', '50')
     .option('--exclude <patterns>', 'Comma-separated path patterns to skip')
@@ -143,8 +143,8 @@ program
 program
     .command('local')
     .argument('<directory>', 'Local directory of markdown, HTML, text, PDF, or DOCX files')
-    .option('-o, --output <dir>', 'Output directory', './brain-drain-output')
-    .option('-f, --format <format>', 'Output format: json, markdown, or both', 'json')
+    .option('-o, --output <dir>', 'Output directory', './brainfood-output')
+    .option('-f, --format <format>', 'Output format: json, markdown, obsidian, or both', 'json')
     .option('--rate-limit <milliseconds>', 'Unused for local mode; kept for interface consistency', '1000')
     .option('--timeout <milliseconds>', 'Unused for local mode; kept for interface consistency', '15000')
     .option('--summarize', 'Generate higher-quality summaries with OpenAI')
@@ -162,8 +162,8 @@ program
 program
     .command('sitemap')
     .argument('<url>', 'Sitemap URL to read')
-    .option('-o, --output <dir>', 'Output directory', './brain-drain-output')
-    .option('-f, --format <format>', 'Output format: json, markdown, or both', 'json')
+    .option('-o, --output <dir>', 'Output directory', './brainfood-output')
+    .option('-f, --format <format>', 'Output format: json, markdown, obsidian, or both', 'json')
     .option('--max-pages <number>', 'Maximum pages to fetch from the sitemap', '100')
     .option('--exclude <patterns>', 'Comma-separated path patterns to skip')
     .option('--concurrency <number>', 'Concurrent fetches (default: 3, max: 10)', '3')
@@ -193,7 +193,7 @@ program
 });
 program.parseAsync(process.argv).catch((error) => {
     const message = error instanceof Error ? error.message : 'Unknown error';
-    console.error(`brain-drain failed: ${message}`);
+    console.error(`brainfood: ${message}`);
     process.exitCode = 1;
 });
 //# sourceMappingURL=index.js.map
