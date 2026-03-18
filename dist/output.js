@@ -32,7 +32,7 @@ function wrapEntityWikiLinks(content, node) {
         .map((entity) => normalizeEntityName(entity.name))
         .filter((entityName) => Boolean(entityName)))).sort((left, right) => right.length - left.length);
     return entityNames.reduce((currentContent, entityName) => {
-        const pattern = new RegExp(`(^|[^\p{L}\p{N}\]])(${escapeRegex(entityName)})(?=$|[^\p{L}\p{N}\[])`, 'gu');
+        const pattern = new RegExp(`(^|[^\\p{L}\\p{N}\\]])(${escapeRegex(entityName)})(?=$|[^\\p{L}\\p{N}\\[])`, 'gu');
         return currentContent.replace(pattern, (match, prefix, matchedEntity, offset, source) => {
             const entityStart = offset + prefix.length;
             const before = source.slice(Math.max(0, entityStart - 2), entityStart);
