@@ -129,6 +129,34 @@ Parse a sitemap and fetch all listed pages.
 | `--rate-limit <ms>` | `1000` | Minimum ms between requests |
 | `--exclude <patterns>` | — | Comma-separated URL patterns to skip |
 
+## Using brainfood with OpenClaw
+
+Already running an OpenClaw agent? Just tell it what to process:
+
+> "Install brainfood and process my research folder into Obsidian notes"
+
+Your agent will run:
+```bash
+npm install -g brainfood
+brainfood local ./research --format obsidian --output ~/Documents/Obsidian\ Vault/research/
+```
+
+> "Crawl my company website and give me structured data"
+
+```bash
+brainfood crawl https://yoursite.com --depth 2 --format json
+```
+
+> "Convert these PDFs into something you can actually read"
+
+```bash
+brainfood local ./documents --format both
+```
+
+That's it. One install, one command, your agent gets structured knowledge it can actually use.
+
+**Tip for non-technical users:** Copy any of the commands above and paste them to your OpenClaw agent in chat. It handles the rest.
+
 ## Use cases
 
 **Feed your AI agent** — Convert your knowledge base into structured data any LLM agent can ingest.
