@@ -1,203 +1,151 @@
-# brain-drain
+# 🧠 brainfood
 
-`brain-drain` is Capxel's open-source CLI for turning messy knowledge sources into structured, AI-readable output.
+**Structured knowledge for hungry agents.**
 
-It crawls websites, ingests local docs, reads sitemaps, extracts the important content, and writes a clean knowledge graph that agents can actually use.
+Your AI agent is only as smart as what you feed it. Brainfood turns your messy knowledge — YouTube transcripts, PDFs, docs, notes, websites — into clean, structured data your agent actually understands.
 
-## What is this?
+---
 
-Most companies already have the knowledge AI systems need - it is just trapped inside websites, docs folders, internal exports, and long-form content built for humans instead of machines.
+## What does it do?
 
-`brain-drain` converts those sources into:
+You have knowledge trapped in files your AI can't use. Brainfood fixes that.
 
-- one structured node per page or document
-- cleaned Markdown content
-- topics and named entities
-- relationship links between nodes
-- a top-level `brain-drain.json` knowledge graph
+| Source | What brainfood does |
+|--------|-------------------|
+| PDFs | Extracts text, structures it, outputs clean JSON/Markdown/Obsidian notes |
+| Local docs (Markdown, HTML, text, DOCX) | Parses, organizes, builds a knowledge graph |
+| Websites | Crawls pages, extracts content, maps structure |
+| Sitemaps | Reads sitemap XML, fetches and processes all listed pages |
 
-This project is built to align with LLM-LD principles for machine-readable knowledge delivery. Learn more at https://llmld.org/.
-
-## Why it exists
-
-`brain-drain` pairs with Capxel's Agentic Search Optimization (ASO) service for full AI visibility deployment.
-
-- Open source under MIT
-- Zero-config first run for common use cases
-- Useful by itself for audits and structured exports
-- A practical preview of what richer LLM-LD deployment looks like
-
-## Built by Capxel
-
-Built by Capxel - https://capxel.com
-
-Part of the ASO toolkit.
-
-## Installation
-
-### Run with `npx`
-
-```bash
-npx brain-drain crawl https://example.com --output ./output
-```
-
-### Install globally
-
-```bash
-npm install -g brain-drain
-brain-drain --help
-```
-
-### Run from source
-
-```bash
-npm install
-npx tsx src/index.ts --help
-```
+Every source becomes structured, linked, agent-ready output.
 
 ## Quick start
 
 ```bash
+# Install
+npm install -g brainfood
+
+# Process local files (PDFs, docs, transcripts)
+brainfood local ./my-knowledge --format both
+
 # Crawl a website
-brain-drain crawl https://example.com --output ./output --depth 2
+brainfood crawl https://example.com --depth 2
 
-# Process a local docs directory
-brain-drain local ./docs --output ./output --format both
+# Generate Obsidian-ready notes
+brainfood local ./research --format obsidian
 
-# Read a sitemap and fetch listed pages
-brain-drain sitemap https://example.com/sitemap.xml --output ./output
+# Read from a sitemap
+brainfood sitemap https://example.com/sitemap.xml
 ```
 
-## CLI overview
-
-### Crawl a website
+Or run without installing:
 
 ```bash
-brain-drain crawl https://example.com \
-  --output ./output \
-  --depth 2 \
-  --max-pages 50 \
-  --rate-limit 1000
-```
-
-### Process local docs
-
-```bash
-brain-drain local ./knowledge-base \
-  --output ./output \
-  --format both
-```
-
-### Read from a sitemap
-
-```bash
-brain-drain sitemap https://example.com/sitemap.xml \
-  --output ./output \
-  --max-pages 100
-```
-
-## Optional AI summaries
-
-By default, `brain-drain` writes an extractive summary from the document itself.
-
-To upgrade summaries with OpenAI, set `OPENAI_API_KEY` and pass `--summarize`:
-
-```bash
-export OPENAI_API_KEY="your-key"
-brain-drain crawl https://example.com --output ./output --summarize
-```
-
-Optional model override:
-
-```bash
-brain-drain crawl https://example.com --output ./output --summarize --model gpt-4.1-mini
+npx brainfood local ./docs --format json
 ```
 
 ## Output formats
 
-`brain-drain` always writes a graph index file:
-
-```text
-output/
-├── brain-drain.json
-├── json/
-│   └── ...mirrored source structure...
-└── markdown/
-    └── ...mirrored source structure...
-```
-
 ### `--format json`
-
-- Writes per-document JSON nodes in `output/json/`
-- Writes `output/brain-drain.json`
+Structured JSON nodes — perfect for AI agent ingestion, pipelines, and APIs.
 
 ### `--format markdown`
+Clean Markdown files — readable by humans and machines.
 
-- Writes per-document Markdown files in `output/markdown/`
-- Still writes `output/brain-drain.json` so downstream tools always have a structured graph
+### `--format obsidian`
+Obsidian-ready Markdown with YAML frontmatter, tags, and `[[wiki-links]]` — drop directly into your vault.
 
 ### `--format both`
+JSON + Markdown together.
 
-- Writes both JSON and Markdown nodes
-- Writes `output/brain-drain.json`
+Every format also writes a `brainfood.json` knowledge graph index.
 
-## Node shape
+## Obsidian integration
 
-Each page or document becomes a knowledge node like this:
+Brainfood speaks Obsidian natively:
+
+```bash
+brainfood local ./research-papers --format obsidian --output ~/Documents/Obsidian\ Vault/research/
+```
+
+Output includes:
+- **YAML frontmatter** — title, date, source, tags, type
+- **Wiki-links** — entity names automatically linked as `[[Entity Name]]`
+- **Clean filenames** — slugified, no special characters
+- **Tags** — extracted topics become Obsidian tags
+
+Your vault becomes a living knowledge base — searchable, linked, and graph-ready.
+
+## How it works
+
+1. **Ingest** — point brainfood at files, a folder, a URL, or a sitemap
+2. **Extract** — content is parsed, cleaned, and structured using Mozilla Readability + Cheerio
+3. **Structure** — topics, entities, and relationships are identified and linked
+4. **Output** — clean knowledge nodes in your chosen format
+
+Each document becomes a knowledge node:
 
 ```json
 {
-  "id": "0f7c80fef4ce",
-  "title": "Example Domain",
-  "url": "https://example.com",
-  "content": "# Example Domain\n\nThis domain is for use in illustrative examples in documents.",
-  "summary": "Example Domain explains the purpose of the site and points readers to more information.",
-  "topics": ["example", "domain", "documents"],
+  "id": "a1b2c3d4e5f6",
+  "title": "Document Title",
+  "content": "# Clean structured content...",
+  "summary": "AI-generated or extractive summary",
+  "topics": ["topic1", "topic2"],
   "entities": [
-    { "name": "Example Domain", "type": "person" },
-    { "name": "documents", "type": "topic" }
+    { "name": "Key Concept", "type": "topic" }
   ],
   "relationships": [],
   "metadata": {
-    "sourceType": "crawl",
-    "canonicalSource": "https://example.com/",
-    "relativeOutputPath": "example-com/index",
-    "contentType": "text/html; charset=UTF-8",
-    "wordCount": 16,
-    "language": "en",
-    "author": null,
-    "publishedAt": null,
-    "lastModified": null,
-    "generatedAt": "2026-03-16T00:00:00.000Z"
+    "sourceType": "local",
+    "wordCount": 1250,
+    "generatedAt": "2026-03-17T00:00:00.000Z"
   }
 }
 ```
 
-## Features
+## CLI reference
 
-- Website crawling with depth limits
-- Sitemap parsing with nested sitemap support
-- Local Markdown, HTML, and text ingestion
-- Mozilla Readability-based content extraction
-- Cheerio-based link discovery and cleanup
-- Respect for `robots.txt`
-- Default rate limiting of 1 request per second
-- Graceful handling for timeouts, unsupported content types, and fetch failures
-- Clean structured output ready for downstream AI pipelines
+### `brainfood local <directory>`
+Process local Markdown, HTML, text, PDF, or DOCX files.
 
-## Development
+### `brainfood crawl <url>`
+Crawl a website with configurable depth and rate limiting.
 
-```bash
-npm install
-npm run check
-npm run build
-```
+### `brainfood sitemap <url>`
+Parse a sitemap and fetch all listed pages.
 
-Run directly in development:
+### Common options
 
-```bash
-npx tsx src/index.ts crawl https://example.com --output ./test-output
-```
+| Option | Default | Description |
+|--------|---------|-------------|
+| `-o, --output <dir>` | `./brainfood-output` | Output directory |
+| `-f, --format <format>` | `json` | Output format: json, markdown, obsidian, or both |
+| `--summarize` | off | Generate AI summaries (requires OPENAI_API_KEY) |
+| `--model <model>` | `gpt-4.1-mini` | OpenAI model for summaries |
+| `--depth <n>` | `2` | Max crawl depth (crawl mode) |
+| `--max-pages <n>` | `50` | Max pages to process |
+| `--concurrency <n>` | `3` | Concurrent requests (max 10) |
+| `--rate-limit <ms>` | `1000` | Minimum ms between requests |
+| `--exclude <patterns>` | — | Comma-separated URL patterns to skip |
+
+## Use cases
+
+**Feed your AI agent** — Convert your knowledge base into structured data any LLM agent can ingest.
+
+**Build an Obsidian vault** — Turn PDFs, transcripts, and research into linked, searchable notes.
+
+**Audit a website** — Extract and map all content from any site for analysis or migration.
+
+**Power a knowledge pipeline** — Automate ingestion from docs folders, sitemaps, or web sources.
+
+## Built by Capxel
+
+[Capxel](https://capxel.com) builds AI-native intelligence infrastructure. Brainfood is open source under MIT.
+
+## Contributing
+
+PRs welcome. See [issues](https://github.com/Capxel/brainfood/issues) for open work.
 
 ## License
 

@@ -120,7 +120,7 @@ function extractLinks(html: string, baseUrl: string): DiscoveredLink[] {
 }
 
 function parseRobotsTxt(content: string, userAgent: string): RobotsConfig {
-  const desiredAgents = [userAgent.toLowerCase(), 'brain-drain', '*'];
+  const desiredAgents = [userAgent.toLowerCase(), 'brainfood', '*'];
   const lines = content.split(/\r?\n/);
   const rules: RobotsRule[] = [];
   let applies = false;

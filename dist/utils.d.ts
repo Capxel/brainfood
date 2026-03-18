@@ -1,8 +1,9 @@
-export declare const DEFAULT_USER_AGENT = "brain-drain/1.0 (+https://github.com/Capxel/brain-drain)";
+export declare const DEFAULT_USER_AGENT = "brainfood/1.0 (+https://github.com/Capxel/brainfood)";
 export declare function sleep(ms: number): Promise<void>;
 export declare function normalizeWhitespace(text: string): string;
 export declare function ensureDirectory(targetDir: string): Promise<void>;
 export declare function sanitizeSegment(value: string): string;
+export declare function slugify(value: string): string;
 export declare function normalizeUrl(rawUrl: string): string;
 export declare function urlToRelativeOutputPath(rawUrl: string): string;
 export declare function localPathToRelativeOutputPath(rootDir: string, filePath: string): string;

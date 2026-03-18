@@ -403,9 +403,9 @@ export function buildKnowledgeGraph(sourceType, sourceRoot, nodes) {
     return {
         '@context': ['https://schema.org', 'https://llmld.org/'],
         tool: {
-            name: 'brain-drain',
-            brand: 'brain-drain',
-            website: 'https://github.com/Capxel/brain-drain',
+            name: 'brainfood',
+            brand: 'brainfood',
+            website: 'https://github.com/Capxel/brainfood',
             version: packageVersion()
         },
         generatedAt: new Date().toISOString(),
